@@ -1,0 +1,3 @@
+/home/hurs1/ackermann_ws/install/ackermann_hardware/lib/libackermann_hardware.so
+/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/cmake/export_ackermann_hardwareExport.cmake
+/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/cmake/export_ackermann_hardwareExport-noconfig.cmake

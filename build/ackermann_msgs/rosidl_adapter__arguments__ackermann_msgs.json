@@ -1,0 +1,6 @@
+{
+  "package_name": "ackermann_msgs",
+  "non_idl_tuples": [
+    "/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_msgs:srv/DetectObject.srv"
+  ]
+}

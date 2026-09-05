@@ -1,0 +1,67 @@
+[0.500s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_simulation
+[0.693s] -- The C compiler identification is GNU 11.4.0
+[1.853s] -- The CXX compiler identification is GNU 11.4.0
+[4.399s] -- Detecting C compiler ABI info
+[4.861s] -- Detecting C compiler ABI info - done
+[4.865s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.865s] -- Detecting C compile features
+[4.866s] -- Detecting C compile features - done
+[4.867s] -- Detecting CXX compiler ABI info
+[5.342s] -- Detecting CXX compiler ABI info - done
+[5.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.346s] -- Detecting CXX compile features
+[5.347s] -- Detecting CXX compile features - done
+[5.348s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.431s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.484s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[6.134s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.136s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.141s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.182s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.184s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.288s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[17.280s] -- Found FastRTPS: /opt/ros/humble/include  
+[23.013s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.018s] -- Looking for pthread.h
+[23.223s] -- Looking for pthread.h - found
+[23.223s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.421s] -- Found Threads: TRUE  
+[23.452s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.500s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.501s] -- Added test 'lint_cmake' to check CMake code style
+[23.501s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.502s] -- Added test 'xmllint' to check XML markup files
+[23.503s] -- Configuring done
+[23.506s] -- Generating done
+[23.507s] -- Build files have been written to: /home/hurs1/ackermann_ws/build/ackermann_simulation
+[23.513s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_simulation
+[23.515s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_simulation -- -j24 -l24
+[23.535s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_simulation -- -j24 -l24
+[23.536s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_simulation
+[23.539s] -- Install configuration: ""
+[23.540s] -- Execute custom install script
+[23.540s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/launch/sim.launch.py
+[23.545s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/config/gz_bridge.yaml
+[23.549s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/config/gz_control_sim_time.yaml
+[23.553s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/worlds/empty.sdf
+[23.557s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/worlds/warehouse.sdf
+[23.561s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ament_index/resource_index/package_run_dependencies/ackermann_simulation
+[23.565s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ament_index/resource_index/parent_prefix_path/ackermann_simulation
+[23.570s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/ament_prefix_path.sh
+[23.574s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/ament_prefix_path.dsv
+[23.578s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/path.sh
+[23.582s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/path.dsv
+[23.586s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.bash
+[23.590s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.sh
+[23.594s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.zsh
+[23.598s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.dsv
+[23.603s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.dsv
+[23.607s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ament_index/resource_index/packages/ackermann_simulation
+[23.612s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/cmake/ackermann_simulationConfig.cmake
+[23.616s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/cmake/ackermann_simulationConfig-version.cmake
+[23.620s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.xml
+[23.625s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_simulation

@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6fa9b9d89a17b5c6b524.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gz_ros2_control_demos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_ackermann_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_ackermann_drive-28138e31fc3d3c67f03b.json",
+					"name" : "example_ackermann_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_diff_drive-82435b0ff7bd2d40b92b.json",
+					"name" : "example_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_effort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_effort-2c79fc14ea05618472ac.json",
+					"name" : "example_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_gripper-5616756931d5dc581a24.json",
+					"name" : "example_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_position-d4483f850279136896c2.json",
+					"name" : "example_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_tricycle_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_tricycle_drive-41fe53a8b1eca4aa5c7e.json",
+					"name" : "example_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_velocity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_velocity-750dad97731870eec444.json",
+					"name" : "example_velocity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_custom_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_custom_hardware_plugins-afea1d1640ee175e66fc.json",
+					"name" : "gz_custom_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_ros2_control_demos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_ros2_control_demos_uninstall-d09e3ccb00bd589ecd81.json",
+					"name" : "gz_ros2_control_demos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd77c8be05542ab8933a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hurs1/ackermann_ws/build/gz_ros2_control_demos",
+		"source" : "/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

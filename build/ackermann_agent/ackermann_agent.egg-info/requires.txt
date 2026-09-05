@@ -1,0 +1,15 @@
+Pillow
+SpeechRecognition
+flask
+flask-socketio
+google-genai
+groundingdino-py
+numpy
+openai-whisper
+requests
+setuptools
+torch
+torchvision
+
+[test]
+pytest

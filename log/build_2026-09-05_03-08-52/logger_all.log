@@ -1,0 +1,466 @@
+[0.583s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ackermann_description', 'ackermann_simulation', 'ackermann_bringup', '--symlink-install']
+[0.583s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ackermann_description', 'ackermann_simulation', 'ackermann_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x762b91a58760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x762b91a581c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x762b91a581c0>>)
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.740s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hurs1/ackermann_ws'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'ros'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['cmake', 'python']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'cmake'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'python'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['python_setup_py']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'python_setup_py'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'ros'
+[0.754s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_agent' with type 'ros.ament_python' and name 'ackermann_agent'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'ros'
+[0.756s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_bringup' with type 'ros.ament_cmake' and name 'ackermann_bringup'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'ros'
+[0.757s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_description' with type 'ros.ament_cmake' and name 'ackermann_description'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'ros'
+[0.758s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_hardware' with type 'ros.ament_cmake' and name 'ackermann_hardware'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'ignore_ament_install'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['colcon_pkg']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'colcon_pkg'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['colcon_meta']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'colcon_meta'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['ros']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'ros'
+[0.759s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'ignore'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'ignore_ament_install'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['colcon_pkg']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'colcon_pkg'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['colcon_meta']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'ros'
+[0.760s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_simulation' with type 'ros.ament_cmake' and name 'ackermann_simulation'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['colcon_meta']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'colcon_meta'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['ros']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'ros'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['cmake', 'python']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'cmake'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'python'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['python_setup_py']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'python_setup_py'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['colcon_meta']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'cmake'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'python'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['python_setup_py']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'python_setup_py'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'colcon_pkg'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'cmake'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'python'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['python_setup_py']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'python_setup_py'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'colcon_pkg'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'ros'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['cmake', 'python']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'cmake'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'python_setup_py'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/gz_ros2_control' with type 'ros.ament_cmake' and name 'gz_ros2_control'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'ros'
+[0.784s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/gz_ros2_control_demos' with type 'ros.ament_cmake' and name 'gz_ros2_control_demos'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'ros'
+[0.785s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/gz_ros2_control_tests' with type 'ros.ament_cmake' and name 'gz_ros2_control_tests'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'ros'
+[0.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/ign_ros2_control' with type 'ros.ament_cmake' and name 'ign_ros2_control'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'ros'
+[0.787s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/ign_ros2_control_demos' with type 'ros.ament_cmake' and name 'ign_ros2_control_demos'
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ackermann_hardware' in 'src/ackermann_robot/ackermann_hardware'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ackermann_msgs' in 'src/ackermann_robot/ackermann_msgs'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gz_ros2_control' in 'src/gz_ros2_control/gz_ros2_control'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ackermann_agent' in 'src/ackermann_robot/ackermann_agent'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gz_ros2_control_demos' in 'src/gz_ros2_control/gz_ros2_control_demos'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ign_ros2_control' in 'src/gz_ros2_control/ign_ros2_control'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ign_ros2_control_demos' in 'src/gz_ros2_control/ign_ros2_control_demos'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gz_ros2_control_tests' in 'src/gz_ros2_control/gz_ros2_control_tests'
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.812s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[0.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_target' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.849s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_description', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description', 'symlink_install': True, 'test_result_base': None}
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_target' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.849s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.849s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_bringup', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_target' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.850s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_simulation', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation', 'symlink_install': True, 'test_result_base': None}
+[0.850s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.851s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description' with build type 'ament_cmake'
+[0.851s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description'
+[0.854s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_description -- -j24 -l24
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_description -- -j24 -l24
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_description
+[0.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_description)
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_description
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake module files
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake config files
+[0.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_description', 'cmake_prefix_path')
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.dsv'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.sh'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/pkgconfig/ackermann_description.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.sh'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.bash'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.zsh'
+[0.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_description/share/colcon-core/packages/ackermann_description)
+[0.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_description)
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake module files
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake config files
+[0.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_description', 'cmake_prefix_path')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.ps1'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.sh'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/pkgconfig/ackermann_description.pc'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/python3.10/site-packages'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[0.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.ps1'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.dsv'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.sh'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.bash'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.zsh'
+[0.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_description/share/colcon-core/packages/ackermann_description)
+[0.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup' with build type 'ament_cmake'
+[0.955s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup'
+[0.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_bringup': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_bringup -- -j24 -l24
+[1.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_bringup' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_bringup -- -j24 -l24
+[1.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_bringup': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_bringup
+[1.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_bringup)
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake module files
+[1.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_bringup' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_bringup
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake config files
+[1.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_bringup', 'cmake_prefix_path')
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.ps1'
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.dsv'
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.sh'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/pkgconfig/ackermann_bringup.pc'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/python3.10/site-packages'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[1.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.ps1'
+[1.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.dsv'
+[1.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.sh'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.bash'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.zsh'
+[1.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_bringup/share/colcon-core/packages/ackermann_bringup)
+[1.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_bringup)
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake module files
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake config files
+[1.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_bringup', 'cmake_prefix_path')
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.ps1'
+[1.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.sh'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/pkgconfig/ackermann_bringup.pc'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/python3.10/site-packages'
+[1.723s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.ps1'
+[1.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.dsv'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.sh'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.bash'
+[1.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.zsh'
+[1.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_bringup/share/colcon-core/packages/ackermann_bringup)
+[1.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation' with build type 'ament_cmake'
+[1.726s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation'
+[1.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_simulation -- -j24 -l24
+[3.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_simulation -- -j24 -l24
+[3.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_simulation
+[3.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_simulation)
+[3.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_simulation
+[3.146s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake module files
+[3.147s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake config files
+[3.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_simulation', 'cmake_prefix_path')
+[3.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.ps1'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.dsv'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.sh'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/pkgconfig/ackermann_simulation.pc'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/python3.10/site-packages'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.ps1'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.dsv'
+[3.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.sh'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.bash'
+[3.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.zsh'
+[3.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_simulation/share/colcon-core/packages/ackermann_simulation)
+[3.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_simulation)
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake module files
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake config files
+[3.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_simulation', 'cmake_prefix_path')
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.ps1'
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.dsv'
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.sh'
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/pkgconfig/ackermann_simulation.pc'
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/python3.10/site-packages'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[3.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.dsv'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.sh'
+[3.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.bash'
+[3.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.zsh'
+[3.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_simulation/share/colcon-core/packages/ackermann_simulation)
+[3.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.164s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.383s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.383s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[3.383s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.ps1'
+[3.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hurs1/ackermann_ws/install/_local_setup_util_ps1.py'
+[3.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.ps1'
+[3.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.sh'
+[3.386s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hurs1/ackermann_ws/install/_local_setup_util_sh.py'
+[3.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.sh'
+[3.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.bash'
+[3.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.bash'
+[3.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.zsh'
+[3.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.zsh'

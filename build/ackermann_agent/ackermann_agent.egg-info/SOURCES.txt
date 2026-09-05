@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+ackermann_agent/__init__.py
+ackermann_agent/agent_terminal.py
+ackermann_agent/agent_web.py
+ackermann_agent/grounding_dino.py
+ackermann_agent/web_interface.py
+ackermann_agent.egg-info/PKG-INFO
+ackermann_agent.egg-info/SOURCES.txt
+ackermann_agent.egg-info/dependency_links.txt
+ackermann_agent.egg-info/entry_points.txt
+ackermann_agent.egg-info/requires.txt
+ackermann_agent.egg-info/top_level.txt
+ackermann_agent.egg-info/zip-safe
+ackermann_agent/static/index.html
+resource/ackermann_agent

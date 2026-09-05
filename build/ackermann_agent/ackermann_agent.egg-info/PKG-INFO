@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ackermann-agent
+Version: 0.0.0
+Summary: LLM based control for the Ackermann robot
+Home-page: UNKNOWN
+Maintainer: sseifsalama
+Maintainer-email: seifsalama2005@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

@@ -1,0 +1,15 @@
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml

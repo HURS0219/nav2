@@ -1,0 +1,1 @@
+/home/hurs1/ackermann_ws/build/ackermann_msgs/ament_cmake_core/ackermann_msgsConfig.cmake

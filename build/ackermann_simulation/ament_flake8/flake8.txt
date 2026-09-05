@@ -1,0 +1,14 @@
+-- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml
+
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./launch/sim.launch.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml'

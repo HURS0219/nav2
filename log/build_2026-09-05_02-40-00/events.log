@@ -1,0 +1,767 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (-) JobUnselected: {'identifier': 'ackermann_agent'}
+[0.000197] (-) JobUnselected: {'identifier': 'ackermann_hardware'}
+[0.000217] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.000240] (-) JobUnselected: {'identifier': 'gz_ros2_control'}
+[0.000260] (-) JobUnselected: {'identifier': 'gz_ros2_control_demos'}
+[0.000281] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000301] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000322] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.000346] (ackermann_description) JobQueued: {'identifier': 'ackermann_description', 'dependencies': OrderedDict()}
+[0.000394] (ackermann_bringup) JobQueued: {'identifier': 'ackermann_bringup', 'dependencies': OrderedDict([('ackermann_description', '/home/hurs1/ackermann_ws/install/ackermann_description'), ('ackermann_hardware', '/home/hurs1/ackermann_ws/install/ackermann_hardware')])}
+[0.000420] (ackermann_simulation) JobQueued: {'identifier': 'ackermann_simulation', 'dependencies': OrderedDict([('ackermann_description', '/home/hurs1/ackermann_ws/install/ackermann_description'), ('ackermann_hardware', '/home/hurs1/ackermann_ws/install/ackermann_hardware'), ('gz_ros2_control', '/home/hurs1/ackermann_ws/install/gz_ros2_control'), ('ackermann_bringup', '/home/hurs1/ackermann_ws/install/ackermann_bringup')])}
+[0.000838] (ackermann_description) JobStarted: {'identifier': 'ackermann_description'}
+[0.006486] (ackermann_description) JobProgress: {'identifier': 'ackermann_description', 'progress': 'cmake'}
+[0.007848] (ackermann_description) JobProgress: {'identifier': 'ackermann_description', 'progress': 'build'}
+[0.007895] (ackermann_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hurs1/ackermann_ws/build/ackermann_description', '--', '-j24', '-l24'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_description', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/199764_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032442] (ackermann_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099671] (-) TimerEvent: {}
+[0.116652] (ackermann_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.191705] (ackermann_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.195607] (ackermann_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.196773] (ackermann_description) StdoutLine: {'line': b'-- Build files have been written to: /home/hurs1/ackermann_ws/build/ackermann_description\n'}
+[0.199765] (-) TimerEvent: {}
+[0.213667] (ackermann_description) CommandEnded: {'returncode': 0}
+[0.214814] (ackermann_description) JobProgress: {'identifier': 'ackermann_description', 'progress': 'install'}
+[0.220061] (ackermann_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hurs1/ackermann_ws/build/ackermann_description'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_description', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/199764_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.224175] (ackermann_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.224375] (ackermann_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.224585] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/base.xacro\n'}
+[0.224734] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/control.xacro\n'}
+[0.224818] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/robot.xacro\n'}
+[0.225004] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/sensors.xacro\n'}
+[0.225074] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/meshes/chasis.stl\n'}
+[0.225101] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/meshes/wheel.stl\n'}
+[0.225605] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ament_index/resource_index/package_run_dependencies/ackermann_description\n'}
+[0.226059] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ament_index/resource_index/parent_prefix_path/ackermann_description\n'}
+[0.226259] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/ament_prefix_path.sh\n'}
+[0.226360] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/ament_prefix_path.dsv\n'}
+[0.226596] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/path.sh\n'}
+[0.226648] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/path.dsv\n'}
+[0.226803] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.bash\n'}
+[0.226837] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.sh\n'}
+[0.227109] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.zsh\n'}
+[0.227289] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.dsv\n'}
+[0.227341] (ackermann_description) StdoutLine: {'line': b'-- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.dsv\n'}
+[0.232417] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ament_index/resource_index/packages/ackermann_description\n'}
+[0.233161] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/cmake/ackermann_descriptionConfig.cmake\n'}
+[0.233497] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/cmake/ackermann_descriptionConfig-version.cmake\n'}
+[0.233608] (ackermann_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.xml\n'}
+[0.234620] (ackermann_description) CommandEnded: {'returncode': 0}
+[0.244137] (ackermann_description) JobEnded: {'identifier': 'ackermann_description', 'rc': 0}
+[0.244676] (ackermann_bringup) JobStarted: {'identifier': 'ackermann_bringup'}
+[0.299882] (-) TimerEvent: {}
+[0.400138] (-) TimerEvent: {}
+[0.500341] (-) TimerEvent: {}
+[0.600513] (-) TimerEvent: {}
+[0.700686] (-) TimerEvent: {}
+[0.800852] (-) TimerEvent: {}
+[0.901033] (-) TimerEvent: {}
+[0.997820] (ackermann_bringup) JobProgress: {'identifier': 'ackermann_bringup', 'progress': 'cmake'}
+[0.999706] (ackermann_bringup) JobProgress: {'identifier': 'ackermann_bringup', 'progress': 'build'}
+[1.000221] (ackermann_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hurs1/ackermann_ws/build/ackermann_bringup', '--', '-j24', '-l24'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_bringup', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/199764_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble')]), 'shell': False}
+[1.001779] (-) TimerEvent: {}
+[1.014413] (ackermann_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.083608] (ackermann_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.090524] (ackermann_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101913] (-) TimerEvent: {}
+[1.202088] (-) TimerEvent: {}
+[1.302350] (-) TimerEvent: {}
+[1.402527] (-) TimerEvent: {}
+[1.502715] (-) TimerEvent: {}
+[1.602910] (-) TimerEvent: {}
+[1.670915] (ackermann_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.674711] (ackermann_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.685859] (ackermann_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.701632] (ackermann_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702991] (-) TimerEvent: {}
+[1.713658] (ackermann_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.749951] (ackermann_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.751234] (ackermann_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.803147] (-) TimerEvent: {}
+[1.903330] (-) TimerEvent: {}
+[2.003512] (-) TimerEvent: {}
+[2.103691] (-) TimerEvent: {}
+[2.203903] (-) TimerEvent: {}
+[2.304090] (-) TimerEvent: {}
+[2.404266] (-) TimerEvent: {}
+[2.504462] (-) TimerEvent: {}
+[2.604661] (-) TimerEvent: {}
+[2.704899] (-) TimerEvent: {}
+[2.805094] (-) TimerEvent: {}
+[2.905272] (-) TimerEvent: {}
+[3.005450] (-) TimerEvent: {}
+[3.105632] (-) TimerEvent: {}
+[3.205809] (-) TimerEvent: {}
+[3.306013] (-) TimerEvent: {}
+[3.406183] (-) TimerEvent: {}
+[3.506540] (-) TimerEvent: {}
+[3.606916] (-) TimerEvent: {}
+[3.707111] (-) TimerEvent: {}
+[3.807287] (-) TimerEvent: {}
+[3.907472] (-) TimerEvent: {}
+[4.007674] (-) TimerEvent: {}
+[4.107854] (-) TimerEvent: {}
+[4.208029] (-) TimerEvent: {}
+[4.308204] (-) TimerEvent: {}
+[4.408380] (-) TimerEvent: {}
+[4.508554] (-) TimerEvent: {}
+[4.608731] (-) TimerEvent: {}
+[4.708914] (-) TimerEvent: {}
+[4.809086] (-) TimerEvent: {}
+[4.909251] (-) TimerEvent: {}
+[5.009418] (-) TimerEvent: {}
+[5.109586] (-) TimerEvent: {}
+[5.209758] (-) TimerEvent: {}
+[5.309985] (-) TimerEvent: {}
+[5.410161] (-) TimerEvent: {}
+[5.510352] (-) TimerEvent: {}
+[5.610566] (-) TimerEvent: {}
+[5.710740] (-) TimerEvent: {}
+[5.810917] (-) TimerEvent: {}
+[5.911109] (-) TimerEvent: {}
+[6.011281] (-) TimerEvent: {}
+[6.111637] (-) TimerEvent: {}
+[6.211871] (-) TimerEvent: {}
+[6.312037] (-) TimerEvent: {}
+[6.412203] (-) TimerEvent: {}
+[6.512374] (-) TimerEvent: {}
+[6.612542] (-) TimerEvent: {}
+[6.712730] (-) TimerEvent: {}
+[6.812911] (-) TimerEvent: {}
+[6.913157] (-) TimerEvent: {}
+[7.013335] (-) TimerEvent: {}
+[7.113524] (-) TimerEvent: {}
+[7.213722] (-) TimerEvent: {}
+[7.313922] (-) TimerEvent: {}
+[7.414094] (-) TimerEvent: {}
+[7.514266] (-) TimerEvent: {}
+[7.614437] (-) TimerEvent: {}
+[7.714606] (-) TimerEvent: {}
+[7.814770] (-) TimerEvent: {}
+[7.914956] (-) TimerEvent: {}
+[8.015151] (-) TimerEvent: {}
+[8.115323] (-) TimerEvent: {}
+[8.215501] (-) TimerEvent: {}
+[8.315681] (-) TimerEvent: {}
+[8.415862] (-) TimerEvent: {}
+[8.516035] (-) TimerEvent: {}
+[8.616217] (-) TimerEvent: {}
+[8.716384] (-) TimerEvent: {}
+[8.816621] (-) TimerEvent: {}
+[8.916807] (-) TimerEvent: {}
+[9.016999] (-) TimerEvent: {}
+[9.117178] (-) TimerEvent: {}
+[9.217374] (-) TimerEvent: {}
+[9.317542] (-) TimerEvent: {}
+[9.417739] (-) TimerEvent: {}
+[9.517925] (-) TimerEvent: {}
+[9.618099] (-) TimerEvent: {}
+[9.718276] (-) TimerEvent: {}
+[9.818443] (-) TimerEvent: {}
+[9.918616] (-) TimerEvent: {}
+[10.018810] (-) TimerEvent: {}
+[10.119016] (-) TimerEvent: {}
+[10.219185] (-) TimerEvent: {}
+[10.319360] (-) TimerEvent: {}
+[10.419562] (-) TimerEvent: {}
+[10.519741] (-) TimerEvent: {}
+[10.619920] (-) TimerEvent: {}
+[10.720096] (-) TimerEvent: {}
+[10.820265] (-) TimerEvent: {}
+[10.920437] (-) TimerEvent: {}
+[11.020643] (-) TimerEvent: {}
+[11.120866] (-) TimerEvent: {}
+[11.221066] (-) TimerEvent: {}
+[11.321251] (-) TimerEvent: {}
+[11.421437] (-) TimerEvent: {}
+[11.521619] (-) TimerEvent: {}
+[11.621792] (-) TimerEvent: {}
+[11.721963] (-) TimerEvent: {}
+[11.822146] (-) TimerEvent: {}
+[11.922355] (-) TimerEvent: {}
+[12.022526] (-) TimerEvent: {}
+[12.122917] (-) TimerEvent: {}
+[12.223363] (-) TimerEvent: {}
+[12.323545] (-) TimerEvent: {}
+[12.423716] (-) TimerEvent: {}
+[12.523896] (-) TimerEvent: {}
+[12.624092] (-) TimerEvent: {}
+[12.724271] (-) TimerEvent: {}
+[12.824448] (-) TimerEvent: {}
+[12.924620] (-) TimerEvent: {}
+[13.024807] (-) TimerEvent: {}
+[13.124989] (-) TimerEvent: {}
+[13.225164] (-) TimerEvent: {}
+[13.325337] (-) TimerEvent: {}
+[13.425516] (-) TimerEvent: {}
+[13.525713] (-) TimerEvent: {}
+[13.625930] (-) TimerEvent: {}
+[13.726103] (-) TimerEvent: {}
+[13.826313] (-) TimerEvent: {}
+[13.926483] (-) TimerEvent: {}
+[14.026668] (-) TimerEvent: {}
+[14.126844] (-) TimerEvent: {}
+[14.227019] (-) TimerEvent: {}
+[14.327194] (-) TimerEvent: {}
+[14.427374] (-) TimerEvent: {}
+[14.527550] (-) TimerEvent: {}
+[14.627752] (-) TimerEvent: {}
+[14.727940] (-) TimerEvent: {}
+[14.828126] (-) TimerEvent: {}
+[14.928305] (-) TimerEvent: {}
+[15.028525] (-) TimerEvent: {}
+[15.128706] (-) TimerEvent: {}
+[15.228886] (-) TimerEvent: {}
+[15.329085] (-) TimerEvent: {}
+[15.429259] (-) TimerEvent: {}
+[15.529446] (-) TimerEvent: {}
+[15.629650] (-) TimerEvent: {}
+[15.729833] (-) TimerEvent: {}
+[15.830015] (-) TimerEvent: {}
+[15.930218] (-) TimerEvent: {}
+[16.030394] (-) TimerEvent: {}
+[16.130575] (-) TimerEvent: {}
+[16.230749] (-) TimerEvent: {}
+[16.330937] (-) TimerEvent: {}
+[16.431178] (-) TimerEvent: {}
+[16.531346] (-) TimerEvent: {}
+[16.631517] (-) TimerEvent: {}
+[16.731682] (-) TimerEvent: {}
+[16.831861] (-) TimerEvent: {}
+[16.932029] (-) TimerEvent: {}
+[17.032206] (-) TimerEvent: {}
+[17.132377] (-) TimerEvent: {}
+[17.232559] (-) TimerEvent: {}
+[17.332726] (-) TimerEvent: {}
+[17.432896] (-) TimerEvent: {}
+[17.533063] (-) TimerEvent: {}
+[17.633502] (-) TimerEvent: {}
+[17.734570] (-) TimerEvent: {}
+[17.834748] (-) TimerEvent: {}
+[17.934955] (-) TimerEvent: {}
+[18.035148] (-) TimerEvent: {}
+[18.135316] (-) TimerEvent: {}
+[18.235485] (-) TimerEvent: {}
+[18.335666] (-) TimerEvent: {}
+[18.435906] (-) TimerEvent: {}
+[18.536086] (-) TimerEvent: {}
+[18.636265] (-) TimerEvent: {}
+[18.736438] (-) TimerEvent: {}
+[18.837034] (-) TimerEvent: {}
+[18.937441] (-) TimerEvent: {}
+[19.037610] (-) TimerEvent: {}
+[19.137782] (-) TimerEvent: {}
+[19.237981] (-) TimerEvent: {}
+[19.338155] (-) TimerEvent: {}
+[19.438335] (-) TimerEvent: {}
+[19.538555] (-) TimerEvent: {}
+[19.638730] (-) TimerEvent: {}
+[19.738911] (-) TimerEvent: {}
+[19.839120] (-) TimerEvent: {}
+[19.939298] (-) TimerEvent: {}
+[20.039465] (-) TimerEvent: {}
+[20.139652] (-) TimerEvent: {}
+[20.239826] (-) TimerEvent: {}
+[20.339995] (-) TimerEvent: {}
+[20.440179] (-) TimerEvent: {}
+[20.540364] (-) TimerEvent: {}
+[20.640538] (-) TimerEvent: {}
+[20.740717] (-) TimerEvent: {}
+[20.840888] (-) TimerEvent: {}
+[20.941066] (-) TimerEvent: {}
+[21.041238] (-) TimerEvent: {}
+[21.141414] (-) TimerEvent: {}
+[21.241598] (-) TimerEvent: {}
+[21.341774] (-) TimerEvent: {}
+[21.441945] (-) TimerEvent: {}
+[21.542125] (-) TimerEvent: {}
+[21.642322] (-) TimerEvent: {}
+[21.742493] (-) TimerEvent: {}
+[21.842664] (-) TimerEvent: {}
+[21.942836] (-) TimerEvent: {}
+[22.043068] (-) TimerEvent: {}
+[22.143271] (-) TimerEvent: {}
+[22.243449] (-) TimerEvent: {}
+[22.343622] (-) TimerEvent: {}
+[22.443823] (-) TimerEvent: {}
+[22.544003] (-) TimerEvent: {}
+[22.644175] (-) TimerEvent: {}
+[22.744355] (-) TimerEvent: {}
+[22.844545] (-) TimerEvent: {}
+[22.944716] (-) TimerEvent: {}
+[23.044894] (-) TimerEvent: {}
+[23.145071] (-) TimerEvent: {}
+[23.245263] (-) TimerEvent: {}
+[23.345428] (-) TimerEvent: {}
+[23.445590] (-) TimerEvent: {}
+[23.545793] (-) TimerEvent: {}
+[23.645995] (-) TimerEvent: {}
+[23.746189] (-) TimerEvent: {}
+[23.846370] (-) TimerEvent: {}
+[23.946547] (-) TimerEvent: {}
+[24.046719] (-) TimerEvent: {}
+[24.146926] (-) TimerEvent: {}
+[24.247152] (-) TimerEvent: {}
+[24.347395] (-) TimerEvent: {}
+[24.447588] (-) TimerEvent: {}
+[24.547812] (-) TimerEvent: {}
+[24.647986] (-) TimerEvent: {}
+[24.748324] (-) TimerEvent: {}
+[24.848502] (-) TimerEvent: {}
+[24.948675] (-) TimerEvent: {}
+[25.048849] (-) TimerEvent: {}
+[25.149021] (-) TimerEvent: {}
+[25.249227] (-) TimerEvent: {}
+[25.349406] (-) TimerEvent: {}
+[25.449590] (-) TimerEvent: {}
+[25.549812] (-) TimerEvent: {}
+[25.649991] (-) TimerEvent: {}
+[25.750160] (-) TimerEvent: {}
+[25.850331] (-) TimerEvent: {}
+[25.950954] (-) TimerEvent: {}
+[26.051662] (-) TimerEvent: {}
+[26.151827] (-) TimerEvent: {}
+[26.252305] (-) TimerEvent: {}
+[26.352998] (-) TimerEvent: {}
+[26.453176] (-) TimerEvent: {}
+[26.553351] (-) TimerEvent: {}
+[26.653552] (-) TimerEvent: {}
+[26.753717] (-) TimerEvent: {}
+[26.853895] (-) TimerEvent: {}
+[26.954069] (-) TimerEvent: {}
+[27.054241] (-) TimerEvent: {}
+[27.154415] (-) TimerEvent: {}
+[27.254614] (-) TimerEvent: {}
+[27.354809] (-) TimerEvent: {}
+[27.455012] (-) TimerEvent: {}
+[27.555233] (-) TimerEvent: {}
+[27.655415] (-) TimerEvent: {}
+[27.755600] (-) TimerEvent: {}
+[27.855795] (-) TimerEvent: {}
+[27.955985] (-) TimerEvent: {}
+[28.056664] (-) TimerEvent: {}
+[28.156955] (-) TimerEvent: {}
+[28.257132] (-) TimerEvent: {}
+[28.357309] (-) TimerEvent: {}
+[28.457509] (-) TimerEvent: {}
+[28.557698] (-) TimerEvent: {}
+[28.657879] (-) TimerEvent: {}
+[28.758084] (-) TimerEvent: {}
+[28.858265] (-) TimerEvent: {}
+[28.958446] (-) TimerEvent: {}
+[29.058687] (-) TimerEvent: {}
+[29.159102] (-) TimerEvent: {}
+[29.259427] (-) TimerEvent: {}
+[29.359630] (-) TimerEvent: {}
+[29.459855] (-) TimerEvent: {}
+[29.560078] (-) TimerEvent: {}
+[29.628598] (ackermann_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[29.660198] (-) TimerEvent: {}
+[29.691106] (ackermann_bringup) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[29.748923] (ackermann_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[29.753572] (ackermann_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[29.754847] (ackermann_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/hurs1/ackermann_ws/build/ackermann_bringup\n'}
+[29.760339] (-) TimerEvent: {}
+[29.778525] (ackermann_bringup) CommandEnded: {'returncode': 0}
+[29.779126] (ackermann_bringup) JobProgress: {'identifier': 'ackermann_bringup', 'progress': 'install'}
+[29.779379] (ackermann_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hurs1/ackermann_ws/build/ackermann_bringup'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_bringup', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/199764_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble')]), 'shell': False}
+[29.784332] (ackermann_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.784554] (ackermann_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.784782] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/controllers.yaml\n'}
+[29.785216] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/display.rviz\n'}
+[29.785246] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/ekf.yaml\n'}
+[29.785268] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/hardware.yaml\n'}
+[29.785556] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/nav2_amcl.yaml\n'}
+[29.785634] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/nav2_bt.xml\n'}
+[29.785710] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/nav2_bt_through_poses.xml\n'}
+[29.785776] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/nav2_params_amcl.yaml\n'}
+[29.785805] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/config/slam.yaml\n'}
+[29.786534] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/__pycache__/nav2.launch.cpython-310.pyc\n'}
+[29.786636] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/__pycache__/slam_nav.launch.cpython-310.pyc\n'}
+[29.786713] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/amcl.launch.py\n'}
+[29.786788] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/camera.launch.py\n'}
+[29.786833] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/lidar.launch.py\n'}
+[29.786904] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/nav2.launch.py\n'}
+[29.786979] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/robot.launch.py\n'}
+[29.787053] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/rviz.launch.py\n'}
+[29.787125] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/slam.launch.py\n'}
+[29.787200] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/launch/slam_nav.launch.py\n'}
+[29.787279] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/maps/innovation.pgm\n'}
+[29.787352] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/maps/innovation.yaml\n'}
+[29.787426] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/maps/warehouse.pgm\n'}
+[29.787500] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/maps/warehouse.yaml\n'}
+[29.787695] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/lib/ackermann_bringup/odom_test.py\n'}
+[29.787727] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/lib/ackermann_bringup/circle_test.py\n'}
+[29.787750] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/lib/ackermann_bringup/twist_stamper.py\n'}
+[29.787772] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/lib/ackermann_bringup/camera_compressor.py\n'}
+[29.787794] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/lib/ackermann_bringup/waypoint_follow.py\n'}
+[29.787816] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ament_index/resource_index/package_run_dependencies/ackermann_bringup\n'}
+[29.787837] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ament_index/resource_index/parent_prefix_path/ackermann_bringup\n'}
+[29.787858] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/environment/ament_prefix_path.sh\n'}
+[29.787878] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/environment/ament_prefix_path.dsv\n'}
+[29.787897] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/environment/path.sh\n'}
+[29.787917] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/environment/path.dsv\n'}
+[29.787936] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/local_setup.bash\n'}
+[29.787956] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/local_setup.sh\n'}
+[29.787977] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/local_setup.zsh\n'}
+[29.787997] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/local_setup.dsv\n'}
+[29.788017] (ackermann_bringup) StdoutLine: {'line': b'-- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.dsv\n'}
+[29.793517] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ament_index/resource_index/packages/ackermann_bringup\n'}
+[29.793795] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/cmake/ackermann_bringupConfig.cmake\n'}
+[29.793857] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/cmake/ackermann_bringupConfig-version.cmake\n'}
+[29.793883] (ackermann_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.xml\n'}
+[29.794522] (ackermann_bringup) CommandEnded: {'returncode': 0}
+[29.802241] (ackermann_bringup) JobEnded: {'identifier': 'ackermann_bringup', 'rc': 0}
+[29.802814] (ackermann_simulation) JobStarted: {'identifier': 'ackermann_simulation'}
+[29.860452] (-) TimerEvent: {}
+[29.960664] (-) TimerEvent: {}
+[30.060863] (-) TimerEvent: {}
+[30.161049] (-) TimerEvent: {}
+[30.261249] (-) TimerEvent: {}
+[30.361423] (-) TimerEvent: {}
+[30.461616] (-) TimerEvent: {}
+[30.561812] (-) TimerEvent: {}
+[30.661995] (-) TimerEvent: {}
+[30.762190] (-) TimerEvent: {}
+[30.862433] (-) TimerEvent: {}
+[30.962618] (-) TimerEvent: {}
+[31.062822] (-) TimerEvent: {}
+[31.109547] (ackermann_simulation) JobProgress: {'identifier': 'ackermann_simulation', 'progress': 'cmake'}
+[31.110999] (ackermann_simulation) JobProgress: {'identifier': 'ackermann_simulation', 'progress': 'build'}
+[31.111365] (ackermann_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hurs1/ackermann_ws/build/ackermann_simulation', '--', '-j24', '-l24'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_simulation', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/199764_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble')]), 'shell': False}
+[31.128752] (ackermann_simulation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.162951] (-) TimerEvent: {}
+[31.204143] (ackermann_simulation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[31.211555] (ackermann_simulation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[31.263089] (-) TimerEvent: {}
+[31.363274] (-) TimerEvent: {}
+[31.463479] (-) TimerEvent: {}
+[31.563656] (-) TimerEvent: {}
+[31.663863] (-) TimerEvent: {}
+[31.764095] (-) TimerEvent: {}
+[31.847647] (ackermann_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[31.849075] (ackermann_simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[31.852292] (ackermann_simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[31.857654] (ackermann_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[31.864203] (-) TimerEvent: {}
+[31.864413] (ackermann_simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[31.882604] (ackermann_simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[31.883802] (ackermann_simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[31.964335] (-) TimerEvent: {}
+[32.064526] (-) TimerEvent: {}
+[32.164718] (-) TimerEvent: {}
+[32.264899] (-) TimerEvent: {}
+[32.365107] (-) TimerEvent: {}
+[32.465279] (-) TimerEvent: {}
+[32.565496] (-) TimerEvent: {}
+[32.665693] (-) TimerEvent: {}
+[32.765914] (-) TimerEvent: {}
+[32.866087] (-) TimerEvent: {}
+[32.966263] (-) TimerEvent: {}
+[33.066475] (-) TimerEvent: {}
+[33.166676] (-) TimerEvent: {}
+[33.266869] (-) TimerEvent: {}
+[33.367059] (-) TimerEvent: {}
+[33.467244] (-) TimerEvent: {}
+[33.567433] (-) TimerEvent: {}
+[33.667652] (-) TimerEvent: {}
+[33.767875] (-) TimerEvent: {}
+[33.868066] (-) TimerEvent: {}
+[33.968258] (-) TimerEvent: {}
+[34.068436] (-) TimerEvent: {}
+[34.168615] (-) TimerEvent: {}
+[34.268798] (-) TimerEvent: {}
+[34.368979] (-) TimerEvent: {}
+[34.469180] (-) TimerEvent: {}
+[34.569355] (-) TimerEvent: {}
+[34.669537] (-) TimerEvent: {}
+[34.769719] (-) TimerEvent: {}
+[34.869907] (-) TimerEvent: {}
+[34.970636] (-) TimerEvent: {}
+[35.071322] (-) TimerEvent: {}
+[35.171505] (-) TimerEvent: {}
+[35.271710] (-) TimerEvent: {}
+[35.371886] (-) TimerEvent: {}
+[35.472189] (-) TimerEvent: {}
+[35.572438] (-) TimerEvent: {}
+[35.672639] (-) TimerEvent: {}
+[35.772821] (-) TimerEvent: {}
+[35.872992] (-) TimerEvent: {}
+[35.973173] (-) TimerEvent: {}
+[36.073366] (-) TimerEvent: {}
+[36.173533] (-) TimerEvent: {}
+[36.273715] (-) TimerEvent: {}
+[36.373897] (-) TimerEvent: {}
+[36.474083] (-) TimerEvent: {}
+[36.574251] (-) TimerEvent: {}
+[36.674419] (-) TimerEvent: {}
+[36.774588] (-) TimerEvent: {}
+[36.874758] (-) TimerEvent: {}
+[36.974947] (-) TimerEvent: {}
+[37.075139] (-) TimerEvent: {}
+[37.175313] (-) TimerEvent: {}
+[37.275481] (-) TimerEvent: {}
+[37.375651] (-) TimerEvent: {}
+[37.475818] (-) TimerEvent: {}
+[37.576052] (-) TimerEvent: {}
+[37.676276] (-) TimerEvent: {}
+[37.776445] (-) TimerEvent: {}
+[37.876619] (-) TimerEvent: {}
+[37.976791] (-) TimerEvent: {}
+[38.076974] (-) TimerEvent: {}
+[38.177188] (-) TimerEvent: {}
+[38.277416] (-) TimerEvent: {}
+[38.377648] (-) TimerEvent: {}
+[38.477866] (-) TimerEvent: {}
+[38.578119] (-) TimerEvent: {}
+[38.678316] (-) TimerEvent: {}
+[38.778513] (-) TimerEvent: {}
+[38.878742] (-) TimerEvent: {}
+[38.978930] (-) TimerEvent: {}
+[39.079138] (-) TimerEvent: {}
+[39.179322] (-) TimerEvent: {}
+[39.279512] (-) TimerEvent: {}
+[39.379681] (-) TimerEvent: {}
+[39.479866] (-) TimerEvent: {}
+[39.580043] (-) TimerEvent: {}
+[39.680228] (-) TimerEvent: {}
+[39.780409] (-) TimerEvent: {}
+[39.880579] (-) TimerEvent: {}
+[39.980772] (-) TimerEvent: {}
+[40.080998] (-) TimerEvent: {}
+[40.181195] (-) TimerEvent: {}
+[40.281381] (-) TimerEvent: {}
+[40.381620] (-) TimerEvent: {}
+[40.481861] (-) TimerEvent: {}
+[40.582076] (-) TimerEvent: {}
+[40.682260] (-) TimerEvent: {}
+[40.782437] (-) TimerEvent: {}
+[40.882723] (-) TimerEvent: {}
+[40.982896] (-) TimerEvent: {}
+[41.083070] (-) TimerEvent: {}
+[41.183246] (-) TimerEvent: {}
+[41.283425] (-) TimerEvent: {}
+[41.383593] (-) TimerEvent: {}
+[41.483759] (-) TimerEvent: {}
+[41.584011] (-) TimerEvent: {}
+[41.684205] (-) TimerEvent: {}
+[41.784378] (-) TimerEvent: {}
+[41.884568] (-) TimerEvent: {}
+[41.984741] (-) TimerEvent: {}
+[42.084943] (-) TimerEvent: {}
+[42.185125] (-) TimerEvent: {}
+[42.285303] (-) TimerEvent: {}
+[42.385490] (-) TimerEvent: {}
+[42.485677] (-) TimerEvent: {}
+[42.585849] (-) TimerEvent: {}
+[42.686019] (-) TimerEvent: {}
+[42.786289] (-) TimerEvent: {}
+[42.886632] (-) TimerEvent: {}
+[42.986853] (-) TimerEvent: {}
+[43.087043] (-) TimerEvent: {}
+[43.187243] (-) TimerEvent: {}
+[43.287415] (-) TimerEvent: {}
+[43.387619] (-) TimerEvent: {}
+[43.487803] (-) TimerEvent: {}
+[43.587993] (-) TimerEvent: {}
+[43.688174] (-) TimerEvent: {}
+[43.788347] (-) TimerEvent: {}
+[43.888559] (-) TimerEvent: {}
+[43.988759] (-) TimerEvent: {}
+[44.089028] (-) TimerEvent: {}
+[44.189220] (-) TimerEvent: {}
+[44.289411] (-) TimerEvent: {}
+[44.389638] (-) TimerEvent: {}
+[44.489830] (-) TimerEvent: {}
+[44.590018] (-) TimerEvent: {}
+[44.690241] (-) TimerEvent: {}
+[44.790418] (-) TimerEvent: {}
+[44.890593] (-) TimerEvent: {}
+[44.990766] (-) TimerEvent: {}
+[45.090989] (-) TimerEvent: {}
+[45.191186] (-) TimerEvent: {}
+[45.291370] (-) TimerEvent: {}
+[45.391537] (-) TimerEvent: {}
+[45.491708] (-) TimerEvent: {}
+[45.591923] (-) TimerEvent: {}
+[45.692112] (-) TimerEvent: {}
+[45.792285] (-) TimerEvent: {}
+[45.892457] (-) TimerEvent: {}
+[45.992630] (-) TimerEvent: {}
+[46.092798] (-) TimerEvent: {}
+[46.192974] (-) TimerEvent: {}
+[46.293153] (-) TimerEvent: {}
+[46.393376] (-) TimerEvent: {}
+[46.493559] (-) TimerEvent: {}
+[46.593744] (-) TimerEvent: {}
+[46.693921] (-) TimerEvent: {}
+[46.794099] (-) TimerEvent: {}
+[46.894268] (-) TimerEvent: {}
+[46.994492] (-) TimerEvent: {}
+[47.094678] (-) TimerEvent: {}
+[47.194864] (-) TimerEvent: {}
+[47.295064] (-) TimerEvent: {}
+[47.395308] (-) TimerEvent: {}
+[47.495490] (-) TimerEvent: {}
+[47.595663] (-) TimerEvent: {}
+[47.695867] (-) TimerEvent: {}
+[47.796047] (-) TimerEvent: {}
+[47.896248] (-) TimerEvent: {}
+[47.996425] (-) TimerEvent: {}
+[48.096638] (-) TimerEvent: {}
+[48.196859] (-) TimerEvent: {}
+[48.297026] (-) TimerEvent: {}
+[48.397188] (-) TimerEvent: {}
+[48.497355] (-) TimerEvent: {}
+[48.597565] (-) TimerEvent: {}
+[48.697744] (-) TimerEvent: {}
+[48.797919] (-) TimerEvent: {}
+[48.898090] (-) TimerEvent: {}
+[48.998285] (-) TimerEvent: {}
+[49.098464] (-) TimerEvent: {}
+[49.198668] (-) TimerEvent: {}
+[49.298846] (-) TimerEvent: {}
+[49.399043] (-) TimerEvent: {}
+[49.499240] (-) TimerEvent: {}
+[49.599408] (-) TimerEvent: {}
+[49.699582] (-) TimerEvent: {}
+[49.799756] (-) TimerEvent: {}
+[49.899936] (-) TimerEvent: {}
+[50.000105] (-) TimerEvent: {}
+[50.100282] (-) TimerEvent: {}
+[50.200737] (-) TimerEvent: {}
+[50.300910] (-) TimerEvent: {}
+[50.401124] (-) TimerEvent: {}
+[50.501293] (-) TimerEvent: {}
+[50.601485] (-) TimerEvent: {}
+[50.701678] (-) TimerEvent: {}
+[50.801854] (-) TimerEvent: {}
+[50.902050] (-) TimerEvent: {}
+[51.002222] (-) TimerEvent: {}
+[51.102398] (-) TimerEvent: {}
+[51.202573] (-) TimerEvent: {}
+[51.302772] (-) TimerEvent: {}
+[51.402940] (-) TimerEvent: {}
+[51.503135] (-) TimerEvent: {}
+[51.603310] (-) TimerEvent: {}
+[51.703487] (-) TimerEvent: {}
+[51.803663] (-) TimerEvent: {}
+[51.903860] (-) TimerEvent: {}
+[52.004050] (-) TimerEvent: {}
+[52.104224] (-) TimerEvent: {}
+[52.204399] (-) TimerEvent: {}
+[52.304574] (-) TimerEvent: {}
+[52.404766] (-) TimerEvent: {}
+[52.504966] (-) TimerEvent: {}
+[52.605140] (-) TimerEvent: {}
+[52.705329] (-) TimerEvent: {}
+[52.805549] (-) TimerEvent: {}
+[52.905748] (-) TimerEvent: {}
+[53.005919] (-) TimerEvent: {}
+[53.106154] (-) TimerEvent: {}
+[53.206390] (-) TimerEvent: {}
+[53.306571] (-) TimerEvent: {}
+[53.406743] (-) TimerEvent: {}
+[53.507395] (-) TimerEvent: {}
+[53.607592] (-) TimerEvent: {}
+[53.707758] (-) TimerEvent: {}
+[53.807924] (-) TimerEvent: {}
+[53.908116] (-) TimerEvent: {}
+[54.008284] (-) TimerEvent: {}
+[54.108460] (-) TimerEvent: {}
+[54.208636] (-) TimerEvent: {}
+[54.308812] (-) TimerEvent: {}
+[54.408986] (-) TimerEvent: {}
+[54.509160] (-) TimerEvent: {}
+[54.609334] (-) TimerEvent: {}
+[54.709567] (-) TimerEvent: {}
+[54.809750] (-) TimerEvent: {}
+[54.909932] (-) TimerEvent: {}
+[55.010111] (-) TimerEvent: {}
+[55.110319] (-) TimerEvent: {}
+[55.210494] (-) TimerEvent: {}
+[55.310668] (-) TimerEvent: {}
+[55.410846] (-) TimerEvent: {}
+[55.511029] (-) TimerEvent: {}
+[55.611346] (-) TimerEvent: {}
+[55.711514] (-) TimerEvent: {}
+[55.811685] (-) TimerEvent: {}
+[55.911852] (-) TimerEvent: {}
+[56.012047] (-) TimerEvent: {}
+[56.112238] (-) TimerEvent: {}
+[56.212417] (-) TimerEvent: {}
+[56.312599] (-) TimerEvent: {}
+[56.412776] (-) TimerEvent: {}
+[56.512988] (-) TimerEvent: {}
+[56.613183] (-) TimerEvent: {}
+[56.713385] (-) TimerEvent: {}
+[56.813562] (-) TimerEvent: {}
+[56.913788] (-) TimerEvent: {}
+[57.013963] (-) TimerEvent: {}
+[57.114138] (-) TimerEvent: {}
+[57.214309] (-) TimerEvent: {}
+[57.314490] (-) TimerEvent: {}
+[57.414669] (-) TimerEvent: {}
+[57.514848] (-) TimerEvent: {}
+[57.615040] (-) TimerEvent: {}
+[57.715220] (-) TimerEvent: {}
+[57.815385] (-) TimerEvent: {}
+[57.915554] (-) TimerEvent: {}
+[58.015734] (-) TimerEvent: {}
+[58.115910] (-) TimerEvent: {}
+[58.216095] (-) TimerEvent: {}
+[58.316266] (-) TimerEvent: {}
+[58.416432] (-) TimerEvent: {}
+[58.516599] (-) TimerEvent: {}
+[58.616843] (-) TimerEvent: {}
+[58.717015] (-) TimerEvent: {}
+[58.817187] (-) TimerEvent: {}
+[58.917355] (-) TimerEvent: {}
+[59.017529] (-) TimerEvent: {}
+[59.117716] (-) TimerEvent: {}
+[59.217893] (-) TimerEvent: {}
+[59.318107] (-) TimerEvent: {}
+[59.418326] (-) TimerEvent: {}
+[59.518497] (-) TimerEvent: {}
+[59.618676] (-) TimerEvent: {}
+[59.640448] (ackermann_simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[59.670867] (ackermann_simulation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[59.718801] (-) TimerEvent: {}
+[59.720694] (ackermann_simulation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[59.721065] (ackermann_simulation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[59.721296] (ackermann_simulation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[59.722100] (ackermann_simulation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[59.724335] (ackermann_simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[59.735967] (ackermann_simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[59.737085] (ackermann_simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/hurs1/ackermann_ws/build/ackermann_simulation\n'}
+[59.751772] (ackermann_simulation) CommandEnded: {'returncode': 0}
+[59.752334] (ackermann_simulation) JobProgress: {'identifier': 'ackermann_simulation', 'progress': 'install'}
+[59.752554] (ackermann_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hurs1/ackermann_ws/build/ackermann_simulation'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_simulation', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/199764_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble')]), 'shell': False}
+[59.758220] (ackermann_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[59.758511] (ackermann_simulation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[59.758678] (ackermann_simulation) StdoutLine: {'line': b'-- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/launch/__pycache__/sim.launch.cpython-310.pyc\n'}
+[59.763583] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/launch/sim.launch.py\n'}
+[59.764264] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/config/gz_bridge.yaml\n'}
+[59.764333] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/config/gz_control_sim_time.yaml\n'}
+[59.764590] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/worlds/empty.sdf\n'}
+[59.764721] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/worlds/maze.sdf\n'}
+[59.764950] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/worlds/warehouse.sdf\n'}
+[59.764993] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ament_index/resource_index/package_run_dependencies/ackermann_simulation\n'}
+[59.765142] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ament_index/resource_index/parent_prefix_path/ackermann_simulation\n'}
+[59.765337] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/ament_prefix_path.sh\n'}
+[59.765497] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/ament_prefix_path.dsv\n'}
+[59.765693] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/path.sh\n'}
+[59.765865] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/environment/path.dsv\n'}
+[59.766061] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.bash\n'}
+[59.766293] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.sh\n'}
+[59.766366] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.zsh\n'}
+[59.766530] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/local_setup.dsv\n'}
+[59.766586] (ackermann_simulation) StdoutLine: {'line': b'-- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.dsv\n'}
+[59.771295] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ament_index/resource_index/packages/ackermann_simulation\n'}
+[59.771834] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/cmake/ackermann_simulationConfig.cmake\n'}
+[59.771905] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/cmake/ackermann_simulationConfig-version.cmake\n'}
+[59.771971] (ackermann_simulation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.xml\n'}
+[59.772572] (ackermann_simulation) CommandEnded: {'returncode': 0}
+[59.788547] (ackermann_simulation) JobEnded: {'identifier': 'ackermann_simulation', 'rc': 0}
+[59.789045] (-) EventReactorShutdown: {}

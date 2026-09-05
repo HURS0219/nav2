@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ackermann_msgs/srv/DetectObject.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/CompressedImage.idl"
+
+module ackermann_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request (Robot to Dev Laptop)")
+    struct DetectObject_Request {
+      sensor_msgs::msg::CompressedImage image;
+
+      string prompt;
+    };
+    @verbatim (language="comment", text=
+      "Response (Dev Laptop to Robot)")
+    struct DetectObject_Response {
+      sequence<string> labels;
+
+      sequence<float> confidences;
+
+      sequence<float> centers_x;
+
+      sequence<float> centers_y;
+    };
+  };
+};

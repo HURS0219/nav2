@@ -1,0 +1,1 @@
+/home/hurs1/ackermann_ws/build/ackermann_msgs/rosidl_generator_py/ackermann_msgs/srv/_detect_object.py

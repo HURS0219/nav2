@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000054] (ackermann_description) JobQueued: {'identifier': 'ackermann_description', 'dependencies': OrderedDict([('ackermann_description', '/home/hurs1/ackermann_ws/install/ackermann_description')])}
+[0.000083] (ackermann_bringup) JobQueued: {'identifier': 'ackermann_bringup', 'dependencies': OrderedDict([('ackermann_description', '/home/hurs1/ackermann_ws/install/ackermann_description'), ('ackermann_hardware', '/home/hurs1/ackermann_ws/install/ackermann_hardware'), ('ackermann_bringup', '/home/hurs1/ackermann_ws/install/ackermann_bringup')])}
+[0.000108] (ackermann_simulation) JobQueued: {'identifier': 'ackermann_simulation', 'dependencies': OrderedDict([('ackermann_description', '/home/hurs1/ackermann_ws/install/ackermann_description'), ('ackermann_hardware', '/home/hurs1/ackermann_ws/install/ackermann_hardware'), ('gz_ros2_control', '/home/hurs1/ackermann_ws/install/gz_ros2_control'), ('ackermann_bringup', '/home/hurs1/ackermann_ws/install/ackermann_bringup'), ('ackermann_simulation', '/home/hurs1/ackermann_ws/install/ackermann_simulation')])}
+[0.000136] (ackermann_description) JobStarted: {'identifier': 'ackermann_description'}
+[0.099481] (-) TimerEvent: {}
+[0.199666] (-) TimerEvent: {}
+[0.255615] (ackermann_description) JobEnded: {'identifier': 'ackermann_description', 'rc': 0}
+[0.256173] (ackermann_bringup) JobStarted: {'identifier': 'ackermann_bringup'}
+[0.299790] (-) TimerEvent: {}
+[0.399972] (-) TimerEvent: {}
+[0.500154] (-) TimerEvent: {}
+[0.600373] (-) TimerEvent: {}
+[0.700548] (-) TimerEvent: {}
+[0.800734] (-) TimerEvent: {}
+[0.900910] (-) TimerEvent: {}
+[1.001082] (-) TimerEvent: {}
+[1.101248] (-) TimerEvent: {}
+[1.201419] (-) TimerEvent: {}
+[1.244941] (ackermann_bringup) JobEnded: {'identifier': 'ackermann_bringup', 'rc': 0}
+[1.247175] (ackermann_simulation) JobStarted: {'identifier': 'ackermann_simulation'}
+[1.301533] (-) TimerEvent: {}
+[1.401718] (-) TimerEvent: {}
+[1.501906] (-) TimerEvent: {}
+[1.602094] (-) TimerEvent: {}
+[1.702282] (-) TimerEvent: {}
+[1.802462] (-) TimerEvent: {}
+[1.902643] (-) TimerEvent: {}
+[2.002816] (-) TimerEvent: {}
+[2.102993] (-) TimerEvent: {}
+[2.203170] (-) TimerEvent: {}
+[2.303370] (-) TimerEvent: {}
+[2.403546] (-) TimerEvent: {}
+[2.503743] (-) TimerEvent: {}
+[2.603974] (-) TimerEvent: {}
+[2.704149] (-) TimerEvent: {}
+[2.804322] (-) TimerEvent: {}
+[2.904494] (-) TimerEvent: {}
+[3.002653] (ackermann_simulation) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/hurs1/ackermann_ws/build/ackermann_simulation', 'env': OrderedDict([('USER', 'hurs1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hurs1'), ('OLDPWD', '/mnt/c/Users/zhong/Documents/Codex/2026-09-04/ba'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hurs1'), ('NAME', 'HURS'), ('WSL_INTEROP', '/run/WSL/217511_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hurs1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/.codex/tmp/arg0/codex-arg05FtpsU:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Program Files (x86)/Git/cmd:/mnt/c/Program Files/Tailscale/:/mnt/d/workp/tea/pack/Toolchain/arm_gnu_toolchain/bin:/mnt/d/workp/tea/pack/Toolchain/Cmake4.4.0-rc3/bin:/mnt/d/workp/tea/pack/Toolchain/mingw64/bin:/mnt/d/workp/tea/pack/Toolchain/ninja:/mnt/d/workp/tea/pack/Toolchain/OpenOCD-20260302-0.12.0/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/zhong/AppData/Local/Microsoft/WindowsApps:/mnt/d/Program Files/shunwangcloud:/mnt/c/Users/zhong/AppData/Roaming/npm:/mnt/d/Program Files (x86)/Microsoft VS Code/bin:/mnt/c/Users/zhong/AppData/Local/Programs/Ollama:/mnt/c/Users/zhong/AppData/Local/Python/bin:/mnt/c/Users/zhong/AppData/Local/OfficeCLI:/mnt/c/Program Files/JetBrains/CLion 2026.2.1/bin:/mnt/c/Users/zhong/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0-full_build/bin:/mnt/c/Users/zhong/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/zhong/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/2c99e6a5175484dd:/mnt/c/Users/zhong/AppData/Local/OpenAI/Codex/bin/994e8469124a0d31:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_simulation:/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/hurs1/ackermann_ws/build/ackermann_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/hurs1/ackermann_ws/install/ackermann_simulation:/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description')]), 'shell': False}
+[3.004532] (-) TimerEvent: {}
+[3.006774] (ackermann_simulation) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/hurs1/ackermann_ws/build/ackermann_simulation/CTestConfiguration.ini\n'}
+[3.007061] (ackermann_simulation) StdoutLine: {'line': b'Parse Config file:/home/hurs1/ackermann_ws/build/ackermann_simulation/CTestConfiguration.ini\n'}
+[3.007101] (ackermann_simulation) StdoutLine: {'line': b'   Site: HURS\n'}
+[3.007143] (ackermann_simulation) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[3.007214] (ackermann_simulation) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[3.007261] (ackermann_simulation) StdoutLine: {'line': b'Create new tag: 20260904-1903 - Experimental\n'}
+[3.007533] (ackermann_simulation) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/hurs1/ackermann_ws/build/ackermann_simulation/CTestConfiguration.ini\n'}
+[3.007606] (ackermann_simulation) StdoutLine: {'line': b'Parse Config file:/home/hurs1/ackermann_ws/build/ackermann_simulation/CTestConfiguration.ini\n'}
+[3.007662] (ackermann_simulation) StdoutLine: {'line': b'Test project /home/hurs1/ackermann_ws/build/ackermann_simulation\n'}
+[3.007714] (ackermann_simulation) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[3.007765] (ackermann_simulation) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[3.007910] (ackermann_simulation) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[3.007964] (ackermann_simulation) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[3.008017] (ackermann_simulation) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[3.008070] (ackermann_simulation) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[3.008122] (ackermann_simulation) StdoutLine: {'line': b'test 1\n'}
+[3.008174] (ackermann_simulation) StdoutLine: {'line': b'    Start 1: flake8\n'}
+[3.008227] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.008280] (ackermann_simulation) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml"\n'}
+[3.008339] (ackermann_simulation) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[3.040775] (ackermann_simulation) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':\n"}
+[3.040893] (ackermann_simulation) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml\n'}
+[3.104638] (-) TimerEvent: {}
+[3.130007] (ackermann_simulation) StdoutLine: {'line': b'1: \n'}
+[3.130122] (ackermann_simulation) StdoutLine: {'line': b'1: 1 files checked\n'}
+[3.130151] (ackermann_simulation) StdoutLine: {'line': b'1: No problems found\n'}
+[3.130175] (ackermann_simulation) StdoutLine: {'line': b'1: \n'}
+[3.130198] (ackermann_simulation) StdoutLine: {'line': b'1: Checked files:\n'}
+[3.130221] (ackermann_simulation) StdoutLine: {'line': b'1: \n'}
+[3.130246] (ackermann_simulation) StdoutLine: {'line': b'1: * ./launch/sim.launch.py\n'}
+[3.140080] (ackermann_simulation) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[3.140209] (ackermann_simulation) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml'\n"}
+[3.145190] (ackermann_simulation) StdoutLine: {'line': b'1/4 Test #1: flake8 ...........................   Passed    0.14 sec\n'}
+[3.145851] (ackermann_simulation) StdoutLine: {'line': b'test 2\n'}
+[3.145922] (ackermann_simulation) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[3.145951] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.145976] (ackermann_simulation) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml"\n'}
+[3.146008] (ackermann_simulation) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[3.176848] (ackermann_simulation) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':\n"}
+[3.176956] (ackermann_simulation) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml\n'}
+[3.204736] (-) TimerEvent: {}
+[3.212206] (ackermann_simulation) StdoutLine: {'line': b'2: \n'}
+[3.212317] (ackermann_simulation) StdoutLine: {'line': b'2: No problems found\n'}
+[3.217580] (ackermann_simulation) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[3.217697] (ackermann_simulation) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml'\n"}
+[3.222991] (ackermann_simulation) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.08 sec\n'}
+[3.223114] (ackermann_simulation) StdoutLine: {'line': b'test 3\n'}
+[3.223144] (ackermann_simulation) StdoutLine: {'line': b'    Start 3: pep257\n'}
+[3.223168] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.223192] (ackermann_simulation) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml"\n'}
+[3.223220] (ackermann_simulation) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[3.255398] (ackermann_simulation) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':\n"}
+[3.255510] (ackermann_simulation) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml\n'}
+[3.304846] (-) TimerEvent: {}
+[3.318543] (ackermann_simulation) StdoutLine: {'line': b'3: checking ./launch/sim.launch.py\n'}
+[3.318660] (ackermann_simulation) StdoutLine: {'line': b'3: No problems found\n'}
+[3.327554] (ackermann_simulation) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[3.327670] (ackermann_simulation) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml'\n"}
+[3.332634] (ackermann_simulation) StdoutLine: {'line': b'3/4 Test #3: pep257 ...........................   Passed    0.11 sec\n'}
+[3.332815] (ackermann_simulation) StdoutLine: {'line': b'test 4\n'}
+[3.332844] (ackermann_simulation) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[3.332869] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.332892] (ackermann_simulation) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml"\n'}
+[3.332923] (ackermann_simulation) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[3.364481] (ackermann_simulation) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':\n"}
+[3.364593] (ackermann_simulation) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml\n'}
+[3.404980] (-) TimerEvent: {}
+[3.505161] (-) TimerEvent: {}
+[3.605338] (-) TimerEvent: {}
+[3.705585] (-) TimerEvent: {}
+[3.805804] (-) TimerEvent: {}
+[3.906028] (-) TimerEvent: {}
+[3.910901] (ackermann_simulation) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[3.911014] (ackermann_simulation) StdoutLine: {'line': b'4: \n'}
+[3.911045] (ackermann_simulation) StdoutLine: {'line': b'4: No problems found\n'}
+[3.916722] (ackermann_simulation) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[3.916832] (ackermann_simulation) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml'\n"}
+[3.921760] (ackermann_simulation) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................   Passed    0.59 sec\n'}
+[3.922296] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.922368] (ackermann_simulation) StdoutLine: {'line': b'100% tests passed, 0 tests failed out of 4\n'}
+[3.922399] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.922423] (ackermann_simulation) StdoutLine: {'line': b'Label Time Summary:\n'}
+[3.922452] (ackermann_simulation) StdoutLine: {'line': b'flake8        =   0.14 sec*proc (1 test)\n'}
+[3.922485] (ackermann_simulation) StdoutLine: {'line': b'lint_cmake    =   0.08 sec*proc (1 test)\n'}
+[3.922511] (ackermann_simulation) StdoutLine: {'line': b'linter        =   0.91 sec*proc (4 tests)\n'}
+[3.922540] (ackermann_simulation) StdoutLine: {'line': b'pep257        =   0.11 sec*proc (1 test)\n'}
+[3.922571] (ackermann_simulation) StdoutLine: {'line': b'xmllint       =   0.59 sec*proc (1 test)\n'}
+[3.922594] (ackermann_simulation) StdoutLine: {'line': b'\n'}
+[3.922617] (ackermann_simulation) StdoutLine: {'line': b'Total Test time (real) =   0.91 sec\n'}
+[3.925722] (ackermann_simulation) CommandEnded: {'returncode': 0}
+[3.926064] (ackermann_simulation) JobEnded: {'identifier': 'ackermann_simulation', 'rc': 0}
+[3.926891] (-) EventReactorShutdown: {}

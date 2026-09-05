@@ -1,0 +1,5 @@
+[console_scripts]
+grounding_dino = ackermann_agent.grounding_dino:main
+terminal_agent = ackermann_agent.agent_terminal:main
+web_agent = ackermann_agent.web_interface:main
+

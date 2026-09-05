@@ -1,0 +1,26 @@
+[0.935s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_agent': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hurs1/ackermann_ws/build/ackermann_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hurs1/ackermann_ws/install/ackermann_agent/lib/python3.10/site-packages:/home/hurs1/ackermann_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hurs1/ackermann_ws/build/ackermann_agent/build --no-deps symlink_data
+[1.102s] running develop
+[1.179s] running egg_info
+[1.179s] creating ackermann_agent.egg-info
+[1.179s] writing ackermann_agent.egg-info/PKG-INFO
+[1.179s] writing dependency_links to ackermann_agent.egg-info/dependency_links.txt
+[1.179s] writing entry points to ackermann_agent.egg-info/entry_points.txt
+[1.179s] writing requirements to ackermann_agent.egg-info/requires.txt
+[1.180s] writing top-level names to ackermann_agent.egg-info/top_level.txt
+[1.180s] writing manifest file 'ackermann_agent.egg-info/SOURCES.txt'
+[1.180s] reading manifest file 'ackermann_agent.egg-info/SOURCES.txt'
+[1.181s] writing manifest file 'ackermann_agent.egg-info/SOURCES.txt'
+[1.182s] running build_ext
+[1.182s] Creating /home/hurs1/ackermann_ws/install/ackermann_agent/lib/python3.10/site-packages/ackermann-agent.egg-link (link to .)
+[1.182s] Installing grounding_dino script to /home/hurs1/ackermann_ws/install/ackermann_agent/lib/ackermann_agent
+[1.182s] Installing terminal_agent script to /home/hurs1/ackermann_ws/install/ackermann_agent/lib/ackermann_agent
+[1.182s] Installing web_agent script to /home/hurs1/ackermann_ws/install/ackermann_agent/lib/ackermann_agent
+[1.183s] 
+[1.183s] Installed /home/hurs1/ackermann_ws/build/ackermann_agent
+[1.183s] running symlink_data
+[1.183s] creating /home/hurs1/ackermann_ws/install/ackermann_agent/share/ament_index
+[1.183s] creating /home/hurs1/ackermann_ws/install/ackermann_agent/share/ament_index/resource_index
+[1.183s] creating /home/hurs1/ackermann_ws/install/ackermann_agent/share/ament_index/resource_index/packages
+[1.183s] symbolically linking /home/hurs1/ackermann_ws/build/ackermann_agent/resource/ackermann_agent -> /home/hurs1/ackermann_ws/install/ackermann_agent/share/ament_index/resource_index/packages
+[1.183s] symbolically linking /home/hurs1/ackermann_ws/build/ackermann_agent/package.xml -> /home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent
+[1.199s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_agent' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hurs1/ackermann_ws/build/ackermann_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hurs1/ackermann_ws/install/ackermann_agent/lib/python3.10/site-packages:/home/hurs1/ackermann_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hurs1/ackermann_ws/build/ackermann_agent/build --no-deps symlink_data

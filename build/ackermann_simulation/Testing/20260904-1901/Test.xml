@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260904-1901-Experimental"
+	Name="HURS"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="HURS"
+	OSRelease="6.18.33.2-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15843"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2419.2"
+	>
+	<Testing>
+		<StartDateTime>Sep 05 03:01 CST</StartDateTime>
+		<StartTestTime>1788548499</StartTestTime>
+		<TestList>
+			<Test>./flake8</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./pep257</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.168971</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml
+from launch.actions import GroupAction, IncludeLaunchDescription, DeclareLaunchArgument, TimerAction, SetEnvironmentVariable
+                                                                                                   ^
+                    get_package_share_directory('ros_gz_sim'),'launch','gz_sim.launch.py')]
+                    ^
+                    get_package_share_directory('ros_gz_sim'),'launch','gz_sim.launch.py')]
+                                                             ^
+                    get_package_share_directory('ros_gz_sim'),'launch','gz_sim.launch.py')]
+                                                                      ^
+                launch_arguments={'gz_args': [' -r -v 1 ', LaunchConfiguration('world')], 'on_exit_shutdown': 'true'}.items()
+                                                                                                   ^
+        arguments=['joint_state_broadcaster', '--controller-manager-timeout', '120', '--switch-timeout', '120'],
+                                                                                                   ^
+    
+^
+        arguments=['diff_drive_controller', '--controller-manager-timeout', '120', '--switch-timeout', '120'],
+                                                                                                   ^
+    gz_bridge_param = os.path.join(ackermann_simulation_directory,'config','gz_bridge.yaml')
+                                                                 ^
+    gz_bridge_param = os.path.join(ackermann_simulation_directory,'config','gz_bridge.yaml')
+                                                                          ^
+    
+^
+    launch_actions = [
+    ^
+1     E122 continuation line missing indentation or outdented
+4     E231 missing whitespace after ','
+1     E303 too many blank lines (2)
+4     E501 line too long (124 &gt; 99 characters)
+2     W293 blank line contains whitespace
+
+./launch/sim.launch.py:5:100: E501 line too long (124 &gt; 99 characters)
+
+./launch/sim.launch.py:47:21: E122 continuation line missing indentation or outdented
+
+./launch/sim.launch.py:47:62: E231 missing whitespace after ','
+
+./launch/sim.launch.py:47:71: E231 missing whitespace after ','
+
+./launch/sim.launch.py:49:100: E501 line too long (125 &gt; 99 characters)
+
+./launch/sim.launch.py:72:100: E501 line too long (112 &gt; 99 characters)
+
+./launch/sim.launch.py:75:1: W293 blank line contains whitespace
+
+./launch/sim.launch.py:79:100: E501 line too long (110 &gt; 99 characters)
+
+./launch/sim.launch.py:83:66: E231 missing whitespace after ','
+
+./launch/sim.launch.py:83:75: E231 missing whitespace after ','
+
+./launch/sim.launch.py:105:1: W293 blank line contains whitespace
+
+./launch/sim.launch.py:106:5: E303 too many blank lines (2)
+
+
+1 files checked
+12 errors
+
+'E'-type errors: 10
+'W'-type errors: 2
+
+Checked files:
+
+* ./launch/sim.launch.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0839799</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.148661</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml
+checking ./launch/sim.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.03874</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml" "--package-name" "ackermann_simulation" "--output-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/hurs1/ackermann_ws/build/ackermann_simulation/test_results/ackermann_simulation/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Sep 05 03:01 CST</EndDateTime>
+		<EndTestTime>1788548500</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

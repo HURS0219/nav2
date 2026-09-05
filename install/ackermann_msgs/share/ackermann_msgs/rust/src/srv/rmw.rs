@@ -1,0 +1,1 @@
+/home/hurs1/ackermann_ws/build/ackermann_msgs/rosidl_generator_rs/ackermann_msgs/rust/src/srv/rmw.rs

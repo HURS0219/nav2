@@ -1,0 +1,1 @@
+/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos/launch/pendulum_example_effort.launch.py

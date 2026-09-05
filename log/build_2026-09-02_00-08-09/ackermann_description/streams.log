@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_description
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[1.018s] -- The CXX compiler identification is GNU 11.4.0
+[1.834s] -- Detecting C compiler ABI info
+[2.016s] -- Detecting C compiler ABI info - done
+[2.020s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.020s] -- Detecting C compile features
+[2.020s] -- Detecting C compile features - done
+[2.022s] -- Detecting CXX compiler ABI info
+[2.214s] -- Detecting CXX compiler ABI info - done
+[2.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.218s] -- Detecting CXX compile features
+[2.218s] -- Detecting CXX compile features - done
+[2.220s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.302s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.338s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.387s] -- Configuring done
+[2.389s] -- Generating done
+[2.390s] -- Build files have been written to: /home/hurs1/ackermann_ws/build/ackermann_description
+[2.392s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_description
+[2.393s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_description -- -j24 -l24
+[2.413s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_description -- -j24 -l24
+[2.418s] Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_description
+[2.421s] -- Install configuration: ""
+[2.422s] -- Execute custom install script
+[2.423s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/base.xacro
+[2.427s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/control.xacro
+[2.431s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/robot.xacro
+[2.435s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/urdf/sensors.xacro
+[2.440s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/meshes/chasis.stl
+[2.443s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/meshes/wheel.stl
+[2.448s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ament_index/resource_index/package_run_dependencies/ackermann_description
+[2.452s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ament_index/resource_index/parent_prefix_path/ackermann_description
+[2.456s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/ament_prefix_path.sh
+[2.460s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/ament_prefix_path.dsv
+[2.464s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/path.sh
+[2.468s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/environment/path.dsv
+[2.473s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.bash
+[2.477s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.sh
+[2.481s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.zsh
+[2.485s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/local_setup.dsv
+[2.489s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.dsv
+[2.493s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ament_index/resource_index/packages/ackermann_description
+[2.497s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/cmake/ackermann_descriptionConfig.cmake
+[2.501s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/cmake/ackermann_descriptionConfig-version.cmake
+[2.506s] -- Symlinking: /home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.xml
+[2.512s] Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_description

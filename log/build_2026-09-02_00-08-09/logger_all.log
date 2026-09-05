@@ -1,0 +1,940 @@
+[0.483s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.483s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x752a435148e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x752a43514340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x752a43514340>>)
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.751s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hurs1/ackermann_ws'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_agent) by extension 'ros'
+[0.769s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_agent' with type 'ros.ament_python' and name 'ackermann_agent'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_bringup) by extension 'ros'
+[0.770s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_bringup' with type 'ros.ament_cmake' and name 'ackermann_bringup'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_description) by extension 'ros'
+[0.772s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_description' with type 'ros.ament_cmake' and name 'ackermann_description'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['colcon_pkg']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'colcon_pkg'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['colcon_meta']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'colcon_meta'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extensions ['ros']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_hardware) by extension 'ros'
+[0.774s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_hardware' with type 'ros.ament_cmake' and name 'ackermann_hardware'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_msgs) by extension 'ros'
+[0.776s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/ackermann_simulation) by extension 'ros'
+[0.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_robot/ackermann_simulation' with type 'ros.ament_cmake' and name 'ackermann_simulation'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'ros'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['cmake', 'python']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'cmake'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'python'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extensions ['python_setup_py']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets) by extension 'python_setup_py'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/diagrams) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'ros'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['cmake', 'python']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'cmake'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'python'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extensions ['python_setup_py']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_robot/assets/images) by extension 'python_setup_py'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'ros'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['cmake', 'python']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'cmake'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'python'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extensions ['python_setup_py']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'ros'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['cmake', 'python']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'cmake'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'python'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extensions ['python_setup_py']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/Dockerfile) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/doc/img) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/gz_ros2_control' with type 'ros.ament_cmake' and name 'gz_ros2_control'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_demos) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/gz_ros2_control_demos' with type 'ros.ament_cmake' and name 'gz_ros2_control_demos'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/gz_ros2_control_tests) by extension 'ros'
+[0.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/gz_ros2_control_tests' with type 'ros.ament_cmake' and name 'gz_ros2_control_tests'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control) by extension 'ros'
+[0.802s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/ign_ros2_control' with type 'ros.ament_cmake' and name 'ign_ros2_control'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_ros2_control/ign_ros2_control_demos) by extension 'ros'
+[0.804s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_ros2_control/ign_ros2_control_demos' with type 'ros.ament_cmake' and name 'ign_ros2_control_demos'
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/hurs1/rqt_ws/install
+[0.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.942s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ackermann_msgs' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ackermann_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_target' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.943s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_description', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description', 'symlink_install': True, 'test_result_base': None}
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'cmake_target' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.943s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_hardware', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_msgs', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'gz_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/gz_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/gz_ros2_control', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_agent', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_agent', 'symlink_install': True, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'ackermann_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_bringup', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'gz_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ign_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ign_ros2_control', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ackermann_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ackermann_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ackermann_simulation', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation', 'symlink_install': True, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'gz_ros2_control_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'gz_ros2_control_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests', 'merge_install': False, 'path': '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_tests', 'symlink_install': True, 'test_result_base': None}
+[0.945s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.946s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.946s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control' with build type 'ament_cmake'
+[0.946s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control'
+[0.954s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.956s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description' with build type 'ament_cmake'
+[0.956s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description'
+[0.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.958s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_hardware' with build type 'ament_cmake'
+[0.958s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_hardware'
+[0.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.960s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_msgs' with build type 'ament_cmake'
+[0.961s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_msgs'
+[0.961s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_description
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_hardware': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_hardware
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_msgs
+[3.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_description
+[3.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_description -- -j24 -l24
+[3.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_description -- -j24 -l24
+[3.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_description': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_description
+[3.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_description)
+[3.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_description' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_description
+[3.475s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake module files
+[3.476s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake config files
+[3.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_description', 'cmake_prefix_path')
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.ps1'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.dsv'
+[3.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.sh'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/pkgconfig/ackermann_description.pc'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/python3.10/site-packages'
+[3.478s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[3.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.ps1'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.dsv'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.sh'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.bash'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.zsh'
+[3.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_description/share/colcon-core/packages/ackermann_description)
+[3.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_description)
+[3.482s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake module files
+[3.482s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description' for CMake config files
+[3.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_description', 'cmake_prefix_path')
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.ps1'
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.dsv'
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/hook/cmake_prefix_path.sh'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/pkgconfig/ackermann_description.pc'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/lib/python3.10/site-packages'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_description/bin'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.ps1'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.dsv'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.sh'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.bash'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_description/share/ackermann_description/package.zsh'
+[3.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_description/share/colcon-core/packages/ackermann_description)
+[4.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_msgs
+[4.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_msgs -- -j24 -l24
+[6.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_hardware' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_hardware
+[6.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_hardware': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_hardware -- -j24 -l24
+[6.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_msgs -- -j24 -l24
+[6.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_msgs
+[6.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[6.971s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs' for CMake module files
+[6.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_msgs
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs' for CMake config files
+[6.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[6.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[6.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[6.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[6.973s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/lib'
+[6.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[6.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[6.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[6.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/bin'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[6.974s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/bin'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[6.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[6.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs' for CMake module files
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs' for CMake config files
+[6.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[6.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[6.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[6.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[6.977s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/lib'
+[6.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[6.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[6.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[6.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/bin'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_msgs/bin'
+[6.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[6.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[6.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[6.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[6.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[6.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[6.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_agent' with build type 'ament_python'
+[6.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_agent', 'ament_prefix_path')
+[6.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/hook/ament_prefix_path.ps1'
+[6.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/hook/ament_prefix_path.dsv'
+[6.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/hook/ament_prefix_path.sh'
+[6.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_agent'
+[7.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.760s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_scripts, bdist, bdist_wheel, develop, register, setopt, alias, rotate, compile_catalog, install_egg_info, build, bdist_dumb, clean, build_ext, install_scripts, install_lib, install_headers, bdist_egg, symlink_data, build_clib, upload, dist_info, install, egg_info, upload_docs, init_catalog, check, saveopts, update_catalog, build_py, test, install_data, bdist_rpm, easy_install, sdist, extract_messages
+[7.914s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --exclude-scripts, --dry-run, --quiet, --multi-version, --always-copy, --no-find-links, --prefix, --no-deps, --verbose, --local-snapshots-ok, --always-unzip, --egg-path, --editable, --uninstall, --install-layout, --allow-hosts, --user, --script-dir, --force-installation-into-system-dir, --upgrade, --no-user-cfg, --record, --index-url, --optimize, --help, --find-links, --zip-ok, --install-dir, --build-directory, --version, --site-dirs
+[7.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_agent': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hurs1/ackermann_ws/build/ackermann_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hurs1/ackermann_ws/install/ackermann_agent/lib/python3.10/site-packages:/home/hurs1/ackermann_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hurs1/ackermann_ws/build/ackermann_agent/build --no-deps symlink_data
+[8.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_agent', 'pythonpath_develop')
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/build/ackermann_agent/share/ackermann_agent/hook/pythonpath_develop.ps1'
+[8.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_agent' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hurs1/ackermann_ws/build/ackermann_agent/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hurs1/ackermann_ws/install/ackermann_agent/lib/python3.10/site-packages:/home/hurs1/ackermann_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hurs1/ackermann_ws/build/ackermann_agent/build --no-deps symlink_data
+[8.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/build/ackermann_agent/share/ackermann_agent/hook/pythonpath_develop.dsv'
+[8.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/build/ackermann_agent/share/ackermann_agent/hook/pythonpath_develop.sh'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent' for CMake module files
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent' for CMake config files
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent/lib'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent/bin'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent/lib/pkgconfig/ackermann_agent.pc'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent/lib/python3.10/site-packages'
+[8.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_agent', 'pythonpath')
+[8.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/hook/pythonpath.ps1'
+[8.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/hook/pythonpath.dsv'
+[8.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/hook/pythonpath.sh'
+[8.182s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_agent/bin'
+[8.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_agent)
+[8.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/package.ps1'
+[8.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/package.dsv'
+[8.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/package.sh'
+[8.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/package.bash'
+[8.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_agent/share/ackermann_agent/package.zsh'
+[8.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_agent/share/colcon-core/packages/ackermann_agent)
+[9.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_hardware' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_hardware -- -j24 -l24
+[9.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_hardware': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_hardware
+[9.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_hardware)
+[9.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_hardware' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_hardware
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware' for CMake module files
+[9.169s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware' for CMake config files
+[9.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_hardware', 'cmake_prefix_path')
+[9.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/cmake_prefix_path.ps1'
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/cmake_prefix_path.dsv'
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/cmake_prefix_path.sh'
+[9.170s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib'
+[9.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_hardware', 'ld_library_path_lib')
+[9.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/ld_library_path_lib.ps1'
+[9.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/ld_library_path_lib.dsv'
+[9.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/ld_library_path_lib.sh'
+[9.171s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/bin'
+[9.171s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib/pkgconfig/ackermann_hardware.pc'
+[9.171s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib/python3.10/site-packages'
+[9.171s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/bin'
+[9.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.ps1'
+[9.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.dsv'
+[9.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.sh'
+[9.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.bash'
+[9.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.zsh'
+[9.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_hardware/share/colcon-core/packages/ackermann_hardware)
+[9.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_hardware)
+[9.173s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware' for CMake module files
+[9.173s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware' for CMake config files
+[9.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_hardware', 'cmake_prefix_path')
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/cmake_prefix_path.ps1'
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/cmake_prefix_path.dsv'
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/cmake_prefix_path.sh'
+[9.174s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib'
+[9.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_hardware', 'ld_library_path_lib')
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/ld_library_path_lib.ps1'
+[9.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/ld_library_path_lib.dsv'
+[9.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/hook/ld_library_path_lib.sh'
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/bin'
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib/pkgconfig/ackermann_hardware.pc'
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/lib/python3.10/site-packages'
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_hardware/bin'
+[9.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.ps1'
+[9.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.dsv'
+[9.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.sh'
+[9.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.bash'
+[9.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_hardware/share/ackermann_hardware/package.zsh'
+[9.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_hardware/share/colcon-core/packages/ackermann_hardware)
+[9.178s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup' with build type 'ament_cmake'
+[9.178s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup'
+[9.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_bringup': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_bringup
+[23.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_bringup' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_bringup
+[23.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_bringup': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_bringup -- -j24 -l24
+[23.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_bringup' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_bringup -- -j24 -l24
+[23.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_bringup': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_bringup
+[23.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_bringup)
+[23.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_bringup' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_bringup
+[23.541s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake module files
+[23.542s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake config files
+[23.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_bringup', 'cmake_prefix_path')
+[23.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.ps1'
+[23.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.dsv'
+[23.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.sh'
+[23.543s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib'
+[23.543s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[23.543s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/pkgconfig/ackermann_bringup.pc'
+[23.543s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/python3.10/site-packages'
+[23.543s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[23.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.ps1'
+[23.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.dsv'
+[23.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.sh'
+[23.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.bash'
+[23.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.zsh'
+[23.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_bringup/share/colcon-core/packages/ackermann_bringup)
+[23.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_bringup)
+[23.545s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake module files
+[23.545s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup' for CMake config files
+[23.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_bringup', 'cmake_prefix_path')
+[23.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.ps1'
+[23.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.dsv'
+[23.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/hook/cmake_prefix_path.sh'
+[23.546s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib'
+[23.546s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[23.546s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/pkgconfig/ackermann_bringup.pc'
+[23.546s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/lib/python3.10/site-packages'
+[23.546s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_bringup/bin'
+[23.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.ps1'
+[23.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.dsv'
+[23.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.sh'
+[23.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.bash'
+[23.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_bringup/share/ackermann_bringup/package.zsh'
+[23.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_bringup/share/colcon-core/packages/ackermann_bringup)
+[26.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control
+[26.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control -- -j24 -l24
+[35.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control -- -j24 -l24
+[35.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control
+[35.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control)
+[35.204s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control' for CMake module files
+[35.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control
+[35.204s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control' for CMake config files
+[35.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control', 'cmake_prefix_path')
+[35.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/cmake_prefix_path.ps1'
+[35.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/cmake_prefix_path.dsv'
+[35.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/cmake_prefix_path.sh'
+[35.206s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib'
+[35.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control', 'ld_library_path_lib')
+[35.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/ld_library_path_lib.ps1'
+[35.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/ld_library_path_lib.dsv'
+[35.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/ld_library_path_lib.sh'
+[35.206s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/bin'
+[35.206s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib/pkgconfig/gz_ros2_control.pc'
+[35.206s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib/python3.10/site-packages'
+[35.207s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/bin'
+[35.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.ps1'
+[35.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv'
+[35.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.sh'
+[35.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.bash'
+[35.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.zsh'
+[35.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/gz_ros2_control/share/colcon-core/packages/gz_ros2_control)
+[35.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control)
+[35.209s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control' for CMake module files
+[35.209s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control' for CMake config files
+[35.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control', 'cmake_prefix_path')
+[35.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/cmake_prefix_path.ps1'
+[35.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/cmake_prefix_path.dsv'
+[35.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/cmake_prefix_path.sh'
+[35.210s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib'
+[35.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control', 'ld_library_path_lib')
+[35.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/ld_library_path_lib.ps1'
+[35.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/ld_library_path_lib.dsv'
+[35.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/hook/ld_library_path_lib.sh'
+[35.211s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/bin'
+[35.211s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib/pkgconfig/gz_ros2_control.pc'
+[35.211s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/lib/python3.10/site-packages'
+[35.211s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control/bin'
+[35.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.ps1'
+[35.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv'
+[35.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.sh'
+[35.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.bash'
+[35.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/package.zsh'
+[35.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/gz_ros2_control/share/colcon-core/packages/gz_ros2_control)
+[35.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos' with build type 'ament_cmake'
+[35.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos'
+[35.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control' with build type 'ament_cmake'
+[35.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control'
+[35.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation' with build type 'ament_cmake'
+[35.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation'
+[35.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ign_ros2_control
+[35.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos
+[35.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_simulation
+[39.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ign_ros2_control
+[39.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ign_ros2_control -- -j24 -l24
+[39.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ign_ros2_control -- -j24 -l24
+[39.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ign_ros2_control
+[39.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[39.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ign_ros2_control
+[39.874s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control' for CMake module files
+[39.874s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control' for CMake config files
+[39.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[39.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[39.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[39.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[39.875s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/bin'
+[39.875s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[39.875s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/lib/python3.10/site-packages'
+[39.876s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/bin'
+[39.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[39.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[39.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[39.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[39.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[39.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[39.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control)
+[39.877s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control' for CMake module files
+[39.877s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control' for CMake config files
+[39.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control', 'cmake_prefix_path')
+[39.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.ps1'
+[39.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.dsv'
+[39.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/hook/cmake_prefix_path.sh'
+[39.878s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/bin'
+[39.878s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/lib/pkgconfig/ign_ros2_control.pc'
+[39.878s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/lib/python3.10/site-packages'
+[39.879s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control/bin'
+[39.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.ps1'
+[39.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv'
+[39.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.sh'
+[39.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.bash'
+[39.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control/share/ign_ros2_control/package.zsh'
+[39.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ign_ros2_control/share/colcon-core/packages/ign_ros2_control)
+[58.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/ackermann_robot/ackermann_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ackermann_simulation
+[58.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_simulation -- -j24 -l24
+[58.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ackermann_simulation -- -j24 -l24
+[58.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ackermann_simulation': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_simulation
+[58.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_simulation)
+[58.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ackermann_simulation' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ackermann_bringup:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/ackermann_ws/install/ackermann_hardware:/home/hurs1/ackermann_ws/install/ackermann_description:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:/home/hurs1/ackermann_ws/install/ackermann_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ackermann_simulation
+[58.843s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake module files
+[58.843s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake config files
+[58.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_simulation', 'cmake_prefix_path')
+[58.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.ps1'
+[58.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.dsv'
+[58.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.sh'
+[58.844s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[58.844s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/pkgconfig/ackermann_simulation.pc'
+[58.844s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/python3.10/site-packages'
+[58.845s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[58.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.ps1'
+[58.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.dsv'
+[58.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.sh'
+[58.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.bash'
+[58.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.zsh'
+[58.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_simulation/share/colcon-core/packages/ackermann_simulation)
+[58.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_simulation)
+[58.846s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake module files
+[58.847s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation' for CMake config files
+[58.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_simulation', 'cmake_prefix_path')
+[58.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.ps1'
+[58.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.dsv'
+[58.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/hook/cmake_prefix_path.sh'
+[58.848s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[58.848s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/pkgconfig/ackermann_simulation.pc'
+[58.848s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/lib/python3.10/site-packages'
+[58.848s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ackermann_simulation/bin'
+[58.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.ps1'
+[58.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.dsv'
+[58.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.sh'
+[58.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.bash'
+[58.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ackermann_simulation/share/ackermann_simulation/package.zsh'
+[58.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ackermann_simulation/share/colcon-core/packages/ackermann_simulation)
+[72.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos
+[72.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control_demos -- -j24 -l24
+[80.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control_demos -- -j24 -l24
+[80.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control_demos
+[81.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_demos)
+[81.162s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos' for CMake module files
+[81.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control_demos
+[81.162s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos' for CMake config files
+[81.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_demos', 'cmake_prefix_path')
+[81.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[81.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[81.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/cmake_prefix_path.sh'
+[81.164s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib'
+[81.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_demos', 'ld_library_path_lib')
+[81.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/ld_library_path_lib.ps1'
+[81.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/ld_library_path_lib.dsv'
+[81.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/ld_library_path_lib.sh'
+[81.164s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/bin'
+[81.164s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/pkgconfig/gz_ros2_control_demos.pc'
+[81.165s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/python3.10/site-packages'
+[81.165s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/bin'
+[81.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.ps1'
+[81.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv'
+[81.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.sh'
+[81.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.bash'
+[81.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.zsh'
+[81.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/colcon-core/packages/gz_ros2_control_demos)
+[81.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_demos)
+[81.166s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos' for CMake module files
+[81.167s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos' for CMake config files
+[81.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_demos', 'cmake_prefix_path')
+[81.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[81.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[81.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/cmake_prefix_path.sh'
+[81.168s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib'
+[81.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_demos', 'ld_library_path_lib')
+[81.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/ld_library_path_lib.ps1'
+[81.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/ld_library_path_lib.dsv'
+[81.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/hook/ld_library_path_lib.sh'
+[81.168s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/bin'
+[81.168s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/pkgconfig/gz_ros2_control_demos.pc'
+[81.169s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/python3.10/site-packages'
+[81.169s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/bin'
+[81.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.ps1'
+[81.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv'
+[81.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.sh'
+[81.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.bash'
+[81.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.zsh'
+[81.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/colcon-core/packages/gz_ros2_control_demos)
+[81.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos' with build type 'ament_cmake'
+[81.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos'
+[81.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[81.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[82.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos
+[91.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos
+[91.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ign_ros2_control_demos -- -j24 -l24
+[91.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ign_ros2_control_demos -- -j24 -l24
+[91.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ign_ros2_control_demos
+[91.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[91.802s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos' for CMake module files
+[91.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ign_ros2_control_demos
+[91.803s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos' for CMake config files
+[91.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[91.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[91.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[91.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[91.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib'
+[91.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/bin'
+[91.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[91.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[91.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/bin'
+[91.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[91.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[91.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[91.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[91.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[91.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[91.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[91.806s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos' for CMake module files
+[91.806s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos' for CMake config files
+[91.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[91.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[91.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[91.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[91.807s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib'
+[91.807s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/bin'
+[91.807s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[91.807s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[91.807s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/bin'
+[91.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[91.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[91.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[91.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[91.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[91.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[91.809s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_tests' with build type 'ament_cmake'
+[91.809s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_tests'
+[91.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[91.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[92.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control_tests
+[96.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control_tests
+[96.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control_tests -- -j24 -l24
+[96.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control_tests -- -j24 -l24
+[96.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control_tests
+[96.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_tests)
+[96.163s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests' for CMake module files
+[96.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_tests' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control_tests
+[96.164s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests' for CMake config files
+[96.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_tests', 'cmake_prefix_path')
+[96.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.ps1'
+[96.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.dsv'
+[96.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.sh'
+[96.165s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/bin'
+[96.165s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/lib/pkgconfig/gz_ros2_control_tests.pc'
+[96.165s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/lib/python3.10/site-packages'
+[96.166s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/bin'
+[96.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.ps1'
+[96.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv'
+[96.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.sh'
+[96.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.bash'
+[96.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.zsh'
+[96.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/colcon-core/packages/gz_ros2_control_tests)
+[96.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_ros2_control_tests)
+[96.167s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests' for CMake module files
+[96.167s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests' for CMake config files
+[96.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_ros2_control_tests', 'cmake_prefix_path')
+[96.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.ps1'
+[96.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.dsv'
+[96.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/hook/cmake_prefix_path.sh'
+[96.168s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/bin'
+[96.168s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/lib/pkgconfig/gz_ros2_control_tests.pc'
+[96.168s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/lib/python3.10/site-packages'
+[96.169s] Level 1:colcon.colcon_core.environment:checking '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/bin'
+[96.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.ps1'
+[96.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv'
+[96.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.sh'
+[96.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.bash'
+[96.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.zsh'
+[96.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurs1/ackermann_ws/install/gz_ros2_control_tests/share/colcon-core/packages/gz_ros2_control_tests)
+[96.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[96.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[96.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[96.170s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[96.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[96.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[96.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[96.264s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[96.264s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[96.265s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[96.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.ps1'
+[96.267s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hurs1/ackermann_ws/install/_local_setup_util_ps1.py'
+[96.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.ps1'
+[96.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.sh'
+[96.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hurs1/ackermann_ws/install/_local_setup_util_sh.py'
+[96.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.sh'
+[96.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.bash'
+[96.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.bash'
+[96.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurs1/ackermann_ws/install/local_setup.zsh'
+[96.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurs1/ackermann_ws/install/setup.zsh'

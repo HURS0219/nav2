@@ -1,0 +1,1 @@
+/home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos/launch/gripper_mimic_joint_example.launch.py

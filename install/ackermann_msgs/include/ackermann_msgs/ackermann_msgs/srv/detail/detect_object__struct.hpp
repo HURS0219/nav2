@@ -1,0 +1,1 @@
+/home/hurs1/ackermann_ws/build/ackermann_msgs/rosidl_generator_cpp/ackermann_msgs/srv/detail/detect_object__struct.hpp

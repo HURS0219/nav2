@@ -1,0 +1,346 @@
+[0.129s] Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos
+[0.279s] -- The C compiler identification is GNU 11.4.0
+[0.901s] -- The CXX compiler identification is GNU 11.4.0
+[2.146s] -- Detecting C compiler ABI info
+[2.816s] -- Detecting C compiler ABI info - done
+[2.820s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.820s] -- Detecting C compile features
+[2.820s] -- Detecting C compile features - done
+[2.822s] -- Detecting CXX compiler ABI info
+[3.290s] -- Detecting CXX compiler ABI info - done
+[3.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.295s] -- Detecting CXX compile features
+[3.295s] -- Detecting CXX compile features - done
+[3.296s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.415s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.429s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.164s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.167s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.171s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.207s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[11.660s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[11.681s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.682s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.697s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[11.723s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.725s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[12.763s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.765s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[12.771s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[13.277s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.283s] -- Looking for pthread.h
+[13.666s] -- Looking for pthread.h - found
+[13.666s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.154s] -- Found Threads: TRUE  
+[14.178s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[14.197s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[14.208s] -- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)
+[14.265s] -- Found control_toolbox: 3.7.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[14.312s] -- Found gz_ros2_control: 0.7.21 (/home/hurs1/ackermann_ws/install/gz_ros2_control/share/gz_ros2_control/cmake)
+[14.313s] -- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[14.317s] -- Looking for ignition-gazebo6 -- found version 6.18.0
+[14.321s] -- Searching for dependencies of ignition-gazebo6
+[14.322s] -- Looking for sdformat12 -- found version 12.9.0
+[14.322s] -- Searching for dependencies of sdformat12
+[14.325s] -- Checking for module 'tinyxml2'
+[14.332s] --   Found tinyxml2, version 9.0.0
+[14.348s] -- Looking for ignition-math6 -- found version 6.16.0
+[14.348s] -- Searching for dependencies of ignition-math6
+[14.350s] -- Looking for ignition-utils1 -- found version 1.5.1
+[14.350s] -- Searching for dependencies of ignition-utils1
+[14.352s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[14.352s] -- Searching for dependencies of ignition-plugin1
+[14.352s] -- Searching for <ignition-plugin1> component [loader]
+[14.353s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[14.354s] -- Searching for dependencies of ignition-plugin1-loader
+[14.354s] -- Searching for <ignition-plugin1> component [register]
+[14.355s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[14.355s] -- Searching for dependencies of ignition-plugin1-register
+[14.357s] -- Looking for ignition-transport11 -- found version 11.4.2
+[14.357s] -- Searching for dependencies of ignition-transport11
+[18.177s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[20.947s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[20.950s] -- Checking for module 'libzmq >= 4'
+[20.957s] --   Found libzmq , version 4.3.4
+[20.974s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[21.064s] -- Checking for module 'uuid'
+[21.071s] --   Found uuid, version 2.37.2
+[21.087s] -- Found UUID: TRUE  
+[21.088s] -- Looking for ignition-utils1 -- found version 1.5.1
+[21.088s] -- Searching for dependencies of ignition-utils1
+[21.088s] -- Searching for <ignition-utils1> component [cli]
+[21.089s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[21.089s] -- Searching for dependencies of ignition-utils1-cli
+[21.091s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[21.091s] -- Searching for dependencies of ignition-msgs8
+[23.784s] -- Looking for ignition-math6 -- found version 6.16.0
+[23.920s] -- Searching for <ignition-transport11> component [log]
+[23.921s] -- Looking for ignition-transport11-log -- found version 11.4.2
+[23.921s] -- Searching for dependencies of ignition-transport11-log
+[23.922s] -- Searching for <ignition-transport11> component [parameters]
+[23.923s] -- Looking for ignition-transport11-parameters -- found version 11.4.2
+[23.923s] -- Searching for dependencies of ignition-transport11-parameters
+[23.924s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[23.925s] -- Looking for ignition-common4 -- found version 4.8.1
+[23.925s] -- Searching for dependencies of ignition-common4
+[23.986s] -- Looking for dlfcn.h - found
+[24.048s] -- Looking for libdl - found
+[24.051s] -- Found DL: TRUE  
+[24.264s] -- Searching for <ignition-common4> component [profiler]
+[24.265s] -- Looking for ignition-common4-profiler -- found version 4.8.1
+[24.266s] -- Searching for dependencies of ignition-common4-profiler
+[24.266s] -- Searching for <ignition-common4> component [events]
+[24.267s] -- Looking for ignition-common4-events -- found version 4.8.1
+[24.267s] -- Searching for dependencies of ignition-common4-events
+[24.268s] -- Looking for ignition-math6 -- found version 6.16.0
+[24.268s] -- Searching for <ignition-common4> component [av]
+[24.269s] -- Looking for ignition-common4-av -- found version 4.8.1
+[24.269s] -- Searching for dependencies of ignition-common4-av
+[24.272s] -- Checking for module 'libswscale'
+[24.278s] --   Found libswscale, version 5.9.100
+[24.294s] -- Found SWSCALE: TRUE  
+[24.297s] -- Checking for module 'libavdevice >= 56.4.100'
+[24.303s] --   Found libavdevice , version 58.13.100
+[24.321s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[24.324s] -- Checking for module 'libavformat'
+[24.330s] --   Found libavformat, version 58.76.100
+[24.347s] -- Found AVFORMAT: TRUE  
+[24.349s] -- Checking for module 'libavcodec'
+[24.356s] --   Found libavcodec, version 58.134.100
+[24.373s] -- Found AVCODEC: TRUE  
+[24.376s] -- Checking for module 'libavutil'
+[24.383s] --   Found libavutil, version 56.70.100
+[24.401s] -- Found AVUTIL: TRUE  
+[24.402s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[24.403s] -- Searching for dependencies of ignition-fuel_tools7
+[26.896s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[26.901s] -- Checking for module 'jsoncpp'
+[26.908s] --   Found jsoncpp, version 1.9.5
+[26.925s] -- Found JSONCPP: TRUE  
+[26.929s] -- Checking for module 'libzip'
+[26.937s] --   Found libzip, version 1.7.3
+[26.953s] -- Found ZIP: TRUE  
+[26.953s] -- Looking for ignition-common4 -- found version 4.8.1
+[26.954s] -- Looking for ignition-math6 -- found version 6.16.0
+[26.954s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[26.956s] -- Looking for ignition-gui6 -- found version 6.9.0
+[26.956s] -- Searching for dependencies of ignition-gui6
+[31.737s] -- Looking for ignition-math6 -- found version 6.16.0
+[31.737s] -- Looking for ignition-common4 -- found version 4.8.1
+[31.738s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[31.738s] -- Looking for ignition-transport11 -- found version 11.4.2
+[31.739s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[31.739s] -- Searching for dependencies of ignition-rendering6
+[31.740s] -- Looking for ignition-math6 -- found version 6.16.0
+[31.740s] -- Searching for dependencies of ignition-math6
+[31.740s] -- Searching for <ignition-math6> component [eigen3]
+[31.741s] -- Looking for ignition-math6-eigen3 -- found version 6.16.0
+[31.741s] -- Searching for dependencies of ignition-math6-eigen3
+[31.742s] -- Looking for ignition-common4 -- found version 4.8.1
+[31.743s] -- Searching for dependencies of ignition-common4
+[31.743s] -- Looking for dlfcn.h - found
+[31.743s] -- Looking for libdl - found
+[31.831s] -- Searching for <ignition-common4> component [graphics]
+[31.833s] -- Looking for ignition-common4-graphics -- found version 4.8.1
+[31.833s] -- Searching for dependencies of ignition-common4-graphics
+[31.833s] -- Looking for ignition-math6 -- found version 6.16.0
+[31.834s] -- Looking for ignition-utils1 -- found version 1.5.1
+[31.834s] -- Searching for <ignition-common4> component [events]
+[31.835s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[31.835s] -- Searching for dependencies of ignition-plugin1
+[31.835s] -- Searching for <ignition-plugin1> component [all]
+[31.836s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[31.836s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[31.838s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[32.106s] -- Looking for ignition-physics5 -- found version 5.4.0
+[32.106s] -- Searching for dependencies of ignition-physics5
+[32.106s] -- Looking for ignition-math6 -- found version 6.16.0
+[32.106s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[32.106s] -- Looking for ignition-utils1 -- found version 1.5.1
+[32.107s] -- Searching for <ignition-physics5> component [heightmap]
+[32.108s] -- Looking for ignition-physics5-heightmap -- found version 5.4.0
+[32.109s] -- Searching for dependencies of ignition-physics5-heightmap
+[32.109s] -- Looking for ignition-common4 -- found version 4.8.1
+[32.109s] -- Searching for <ignition-physics5> component [mesh]
+[32.110s] -- Looking for ignition-physics5-mesh -- found version 5.4.0
+[32.110s] -- Searching for dependencies of ignition-physics5-mesh
+[32.111s] -- Looking for ignition-common4 -- found version 4.8.1
+[32.111s] -- Searching for <ignition-physics5> component [sdf]
+[32.112s] -- Looking for ignition-physics5-sdf -- found version 5.4.0
+[32.113s] -- Searching for dependencies of ignition-physics5-sdf
+[32.113s] -- Looking for sdformat12 -- found version 12.9.0
+[32.115s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[32.115s] -- Searching for dependencies of ignition-sensors6
+[34.335s] -- Looking for ignition-math6 -- found version 6.16.0
+[34.335s] -- Looking for ignition-common4 -- found version 4.8.1
+[34.335s] -- Looking for ignition-transport11 -- found version 11.4.2
+[34.336s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[34.336s] -- Looking for ignition-msgs8 -- found version 8.7.1
+[34.336s] -- Looking for sdformat12 -- found version 12.9.0
+[34.337s] -- Searching for <ignition-sensors6> component [air_pressure]
+[34.338s] -- Looking for ignition-sensors6-air_pressure -- found version 6.9.0
+[34.338s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[34.338s] -- Searching for <ignition-sensors6> component [altimeter]
+[34.339s] -- Looking for ignition-sensors6-altimeter -- found version 6.9.0
+[34.340s] -- Searching for dependencies of ignition-sensors6-altimeter
+[34.340s] -- Searching for <ignition-sensors6> component [imu]
+[34.341s] -- Looking for ignition-sensors6-imu -- found version 6.9.0
+[34.341s] -- Searching for dependencies of ignition-sensors6-imu
+[34.342s] -- Searching for <ignition-sensors6> component [force_torque]
+[34.343s] -- Looking for ignition-sensors6-force_torque -- found version 6.9.0
+[34.343s] -- Searching for dependencies of ignition-sensors6-force_torque
+[34.344s] -- Searching for <ignition-sensors6> component [logical_camera]
+[34.346s] -- Looking for ignition-sensors6-logical_camera -- found version 6.9.0
+[34.346s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[34.346s] -- Searching for <ignition-sensors6> component [magnetometer]
+[34.348s] -- Looking for ignition-sensors6-magnetometer -- found version 6.9.0
+[34.348s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[34.349s] -- Searching for <ignition-sensors6> component [navsat]
+[34.350s] -- Looking for ignition-sensors6-navsat -- found version 6.9.0
+[34.350s] -- Searching for dependencies of ignition-sensors6-navsat
+[34.350s] -- Searching for <ignition-sensors6> component [rendering]
+[34.351s] -- Looking for ignition-sensors6-rendering -- found version 6.9.0
+[34.352s] -- Searching for dependencies of ignition-sensors6-rendering
+[34.352s] -- Searching for <ignition-sensors6> component [lidar]
+[34.353s] -- Looking for ignition-sensors6-lidar -- found version 6.9.0
+[34.353s] -- Searching for dependencies of ignition-sensors6-lidar
+[34.354s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[34.354s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[34.355s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.9.0
+[34.355s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[34.355s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[34.356s] -- Searching for <ignition-sensors6> component [camera]
+[34.357s] -- Looking for ignition-sensors6-camera -- found version 6.9.0
+[34.357s] -- Searching for dependencies of ignition-sensors6-camera
+[34.357s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[34.358s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[34.359s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.9.0
+[34.360s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[34.360s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[34.361s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.9.0
+[34.361s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[34.362s] -- Searching for <ignition-sensors6> component [depth_camera]
+[34.363s] -- Looking for ignition-sensors6-depth_camera -- found version 6.9.0
+[34.363s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[34.364s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[34.364s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[34.365s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.9.0
+[34.365s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[34.365s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[34.366s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[34.367s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.9.0
+[34.367s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[34.367s] -- Looking for ignition-sensors6 -- found version 6.9.0
+[34.368s] -- Looking for ignition-rendering6 -- found version 6.6.4
+[34.369s] -- Looking for ignition-math6 -- found version 6.16.0
+[34.370s] -- Looking for ignition-utils1 -- found version 1.5.1
+[37.226s] -- Compiling against Gazebo fortress
+[37.272s] -- Configuring done
+[37.300s] -- Generating done
+[37.311s] -- Build files have been written to: /home/hurs1/ackermann_ws/build/gz_ros2_control_demos
+[37.322s] Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/gz_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos
+[37.324s] Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control_demos -- -j24 -l24
+[37.352s] [  6%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[37.353s] [ 12%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[37.354s] [ 25%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[37.354s] [ 31%] [32mBuilding CXX object CMakeFiles/gz_custom_hardware_plugins.dir/src/gz_custom_system.cpp.o[0m
+[37.354s] [ 25%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[37.356s] [ 37%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[37.358s] [ 43%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[37.361s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[40.215s] [ 56%] [32m[1mLinking CXX executable example_diff_drive[0m
+[40.237s] [ 68%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[40.237s] [ 68%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[40.242s] [ 75%] [32m[1mLinking CXX executable example_gripper[0m
+[40.566s] [ 81%] [32m[1mLinking CXX executable example_position[0m
+[40.597s] [ 81%] Built target example_ackermann_drive
+[40.597s] [ 81%] Built target example_diff_drive
+[40.597s] [ 81%] Built target example_gripper
+[40.602s] [ 87%] [32m[1mLinking CXX executable example_velocity[0m
+[40.602s] [ 87%] Built target example_tricycle_drive
+[40.619s] [ 93%] [32m[1mLinking CXX executable example_effort[0m
+[41.101s] [ 93%] Built target example_velocity
+[41.103s] [ 93%] Built target example_position
+[41.219s] [ 93%] Built target example_effort
+[44.147s] [100%] [32m[1mLinking CXX shared library libgz_custom_hardware_plugins.so[0m
+[45.655s] [100%] Built target gz_custom_hardware_plugins
+[45.668s] Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/gz_ros2_control_demos -- -j24 -l24
+[45.670s] Invoking command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control_demos
+[45.674s] -- Install configuration: ""
+[45.674s] -- Execute custom install script
+[45.675s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[45.680s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[45.684s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_ft_sensor.launch.py
+[45.688s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[45.693s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[45.697s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity_custom_plugin.launch.py
+[45.701s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[45.705s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[45.708s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+[45.712s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+[45.716s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+[45.719s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+[45.723s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[45.727s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[45.731s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+[45.735s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[45.740s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ackermann_drive_controller.yaml
+[45.744s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+[45.748s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_ft_sensor.yaml
+[45.752s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+[45.756s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+[45.760s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller.yaml
+[45.763s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+[45.767s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+[45.771s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/mecanum_drive_controller.yaml
+[45.775s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[45.780s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[45.785s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[45.789s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_ft_sensor.xacro.urdf
+[45.794s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[45.798s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[45.803s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity_custom_plugin.xacro.urdf
+[45.806s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[45.811s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+[45.815s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+[45.819s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[45.823s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[45.826s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[45.830s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[45.835s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//worlds/empty_ft_sensor.sdf
+[45.839s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[45.843s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[45.847s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[45.851s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[45.854s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[45.858s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive
+[45.862s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[45.866s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/library_path.sh
+[45.870s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/library_path.dsv
+[45.873s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//gz_custom_hardware_plugins.xml
+[45.877s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[45.882s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[45.886s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[45.891s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[45.895s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[45.899s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[45.903s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[45.907s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[45.911s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[45.915s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[45.919s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[45.922s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[45.926s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control_demos
+[45.930s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/ament_cmake_export_targets-extras.cmake
+[45.934s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[45.938s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[45.942s] -- Symlinking: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[45.946s] -- Installing: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/libgz_custom_hardware_plugins.so
+[45.947s] -- Set runtime path of "/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib/libgz_custom_hardware_plugins.so" to ""
+[45.947s] -- Installing: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/export_gz_custom_hardware_pluginsExport.cmake
+[45.947s] -- Installing: /home/hurs1/ackermann_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/export_gz_custom_hardware_pluginsExport-noconfig.cmake
+[45.949s] Invoked command in '/home/hurs1/ackermann_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/gz_ros2_control_demos

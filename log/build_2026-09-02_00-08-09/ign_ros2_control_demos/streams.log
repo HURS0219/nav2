@@ -1,0 +1,95 @@
+[1.525s] Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos
+[2.431s] -- The C compiler identification is GNU 11.4.0
+[6.242s] -- The CXX compiler identification is GNU 11.4.0
+[8.656s] -- Detecting C compiler ABI info
+[9.203s] -- Detecting C compiler ABI info - done
+[9.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.207s] -- Detecting C compile features
+[9.207s] -- Detecting C compile features - done
+[9.209s] -- Detecting CXX compiler ABI info
+[9.834s] -- Detecting CXX compiler ABI info - done
+[9.838s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.838s] -- Detecting CXX compile features
+[9.838s] -- Detecting CXX compile features - done
+[9.839s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.923s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.959s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.974s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[9.976s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.977s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.026s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.027s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.027s] -- Configured cppcheck include dirs: 
+[10.027s] -- Configured cppcheck exclude dirs and/or files: 
+[10.028s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.028s] -- Configured cpplint exclude dirs and/or files: 
+[10.029s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.029s] -- Added test 'lint_cmake' to check CMake code style
+[10.029s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.030s] -- Added test 'uncrustify' to check C / C++ code style
+[10.030s] -- Configured uncrustify additional arguments: 
+[10.030s] -- Added test 'xmllint' to check XML markup files
+[10.031s] -- Configuring done
+[10.038s] -- Generating done
+[10.040s] -- Build files have been written to: /home/hurs1/ackermann_ws/build/ign_ros2_control_demos
+[10.043s] Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hurs1/ackermann_ws/src/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurs1/ackermann_ws/install/ign_ros2_control_demos
+[10.044s] Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ign_ros2_control_demos -- -j24 -l24
+[10.067s] [  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[10.068s] [ 14%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[10.069s] [ 21%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[10.069s] [ 28%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[10.072s] [ 35%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[10.072s] [ 42%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[10.072s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[10.228s] [100%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[10.228s] [100%] [32m[1mLinking CXX executable example_effort[0m
+[10.228s] [100%] [32m[1mLinking CXX executable example_gripper[0m
+[10.228s] [100%] [32m[1mLinking CXX executable example_velocity[0m
+[10.228s] [100%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[10.228s] [100%] [32m[1mLinking CXX executable example_position[0m
+[10.229s] [100%] [32m[1mLinking CXX executable example_diff_drive[0m
+[10.467s] [100%] Built target example_effort
+[10.468s] [100%] Built target example_tricycle_drive
+[10.468s] [100%] Built target example_ackermann_drive
+[10.469s] [100%] Built target example_diff_drive
+[10.469s] [100%] Built target example_gripper
+[10.477s] [100%] Built target example_position
+[10.477s] [100%] Built target example_velocity
+[10.490s] Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hurs1/ackermann_ws/build/ign_ros2_control_demos -- -j24 -l24
+[10.491s] Invoking command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ign_ros2_control_demos
+[10.494s] -- Install configuration: ""
+[10.495s] -- Execute custom install script
+[10.495s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[10.499s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[10.503s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[10.507s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[10.511s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[10.515s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[10.519s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[10.523s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[10.527s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/pendulum_example_position.launch.py
+[10.531s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[10.536s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[10.540s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[10.544s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[10.548s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[10.552s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[10.556s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[10.560s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_ackermann_drive
+[10.564s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[10.568s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[10.573s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[10.577s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[10.581s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[10.585s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[10.589s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[10.593s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[10.597s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[10.601s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[10.604s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[10.608s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[10.613s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[10.617s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[10.621s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[10.625s] -- Symlinking: /home/hurs1/ackermann_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[10.631s] Invoked command in '/home/hurs1/ackermann_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos:/home/hurs1/ackermann_ws/install/gz_ros2_control:/home/hurs1/rqt_ws/install/rqt_robot_steering:/opt/ros/humble LD_LIBRARY_PATH=/home/hurs1/ackermann_ws/install/gz_ros2_control_demos/lib:/home/hurs1/ackermann_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hurs1/ackermann_ws/build/ign_ros2_control_demos
