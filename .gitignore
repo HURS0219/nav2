@@ -1,0 +1,17 @@
+build/
+log/
+install/
+*.o
+*.so
+*.a
+*.out
+CMakeCache.txt
+CMakeFiles/
+.cmake/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.swp
+*.log
+.DS_Store
